@@ -27,6 +27,22 @@ function get_packages($distro, $package_type)
   }
   return $pkgs;
 }
+function format_names($names)
+{
+  $names = preg_split('/(,|;)/', $names);
+  $retval = array();
+  foreach($names as $name)
+  {
+    $name = utf8_decode($name);
+    $name = strip_tags($name); // get rid of emails embedded as <..>
+    $name = htmlentities(trim($name));
+    if ($name)
+    {
+      $retval[] = $name;//str_replace(' ', '&nbsp;', $name);
+    }
+  }
+  return $retval;
+}
 ?>
 <html>
   <head>

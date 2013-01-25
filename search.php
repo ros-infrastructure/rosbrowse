@@ -80,7 +80,11 @@ $answer .= "relating to '" . $query_string . "'";
 <?php if (count($stack_results) > 0) { ?>
 <a name="stacks"/><h2>Stacks or Metapackages relating to '<?php echo $query_string ?>'</h2>
 <table>
-<tr><th>Name</th><th>Description</th></tr>
+<tr>
+  <th>Name</th>
+  <th>Maintainers / Authors</th>
+  <th>Description</th>
+</tr>
 <?php
 foreach($stack_results as $name => $stack)
 {
@@ -92,10 +96,11 @@ foreach($stack_results as $name => $stack)
     if (strlen($desc) == 100)
       $desc .= "...";
   }
-
-  echo "<tr><td class='pkgname'>";
-  echo "<a href=\"details.php?distro=" . urlencode($distro) . "&name=" . urlencode($name) . "\">" . $name . "</a>";
-  echo "</td><td>" . htmlentities($desc) . "</td></tr>\n";
+  $maintainers = format_names($pkg['maintainers']);
+  $authors = format_names($pkg['authors']);
+  $maintainers_and_authors = $maintainers + $authors;
+  echo '<tr><td class="pkgname"><a href="details.php?distro=' . urlencode($distroi) . '&name=' . urlencode($name) . '">' . $name . '</a></td><td>' . implode(', ', $maintainers_and_authors) . '</td><td>' . htmlentities($desc) . '</td></tr>';
+  echo "\n";
 }
 ?>
 </table>
@@ -105,7 +110,11 @@ foreach($stack_results as $name => $stack)
 <?php if (count($package_results) > 0) { ?>
 <a name="packages"/><h2>Packages relating to '<?php echo $query_string ?>'</h2>
 <table>
-<tr><th>Name</th><th>Description</th></tr>
+<tr>
+  <th>Name</th>
+  <th>Maintainers / Authors</th>
+  <th>Description</th>
+</tr>
 <?php
 foreach($package_results as $name => $pkg)
 {
@@ -117,10 +126,11 @@ foreach($package_results as $name => $pkg)
     if (strlen($desc) == 100)
       $desc .= "...";
   }
-
-  echo "<tr><td class='pkgname'>";
-  echo "<a href=\"details.php?distro=" . urlencode($distro) . "&name=" . urlencode($name) . "\">" . $name . "</a>";
-  echo "</td><td>" . htmlentities($desc) . "</td></tr>\n";
+  $maintainers = format_names($pkg['maintainers']);
+  $authors = format_names($pkg['authors']);
+  $maintainers_and_authors = $maintainers + $authors;
+  echo '<tr><td class="pkgname"><a href="details.php?distro=' . urlencode($distroi) . '&name=' . urlencode($name) . '">' . $name . '</a></td><td>' . implode(', ', $maintainers_and_authors) . '</td><td>' . htmlentities($desc) . '</td></tr>';
+  echo "\n";
 }
 ?>
 </table>

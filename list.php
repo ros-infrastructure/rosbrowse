@@ -17,23 +17,6 @@ if (isset($_GET['distro']) && !empty($_GET['distro']))
 }
 
 $pkgs = get_packages($distro, $package_type);
-
-function format_names($names)
-{
-  $names = preg_split('/(,|;)/', $names);
-  $retval = array();
-  foreach($names as $name)
-  {
-    $name = utf8_decode($name);
-    $name = strip_tags($name); // get rid of emails embedded as <..>
-    $name = htmlentities(trim($name));
-    if ($name)
-    {
-      $retval[] = $name;//str_replace(' ', '&nbsp;', $name);
-    }
-  }
-  return $retval;
-}
 ?>
 <div id="dpage">
   <div id="dpage-inner">
@@ -62,12 +45,6 @@ function format_names($names)
 <tr><td colspan="100"><h2>Browsing <?php echo $package_type ?>s for <?php echo $distro ?></h2></td></tr>
 </table>
 <table>
-<colgroup>
-  <col width="1"/>
-  <col width="1"/>
-  <col width="1"/>
-  <col width="1"/>
-</colgroup>
 <tr>
   <th>Name</th>
   <th>Maintainers / Authors</th>
