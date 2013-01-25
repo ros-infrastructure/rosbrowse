@@ -2,7 +2,7 @@
 $title = "search results";
 include "rosbrowse.inc";
 
-$distro = 'fuerte';
+$distro = 'groovy';
 $distro_list = array("fuerte", "groovy");
 if (isset($_GET['distro']) && !empty($_GET['distro']))
 {
@@ -29,10 +29,13 @@ if (strlen($query) > 0)
   {
     $brief_desc = strtoupper((string)$pkg['brief']);
     $desc = strtoupper((string)$pkg['description']);
+    $authors = strtoupper((string)$pkg['authors']);
+    $maintainers = strtoupper((string)$pkg['maintainers']);
     if (strpos($brief_desc, $query) !== false ||
         strpos($desc, $query) !== false ||
-        strpos($author, $query) !== false ||
-        strpos($name, $query) !== false)
+        strpos($authors, $query) !== false ||
+        strpos($maintainers, $query) !== false ||
+        strpos(strtoupper($name), $query) !== false)
       $package_results[$name] = $pkg;
   }
   // copying this logic in case we want to do something different in the future,
@@ -41,10 +44,13 @@ if (strlen($query) > 0)
   {
     $brief_desc = strtoupper((string)$stack['brief']);
     $desc = strtoupper((string)$stack['description']);
+    $authors = strtoupper((string)$pkg['authors']);
+    $maintainers = strtoupper((string)$pkg['maintainers']);
     if (strpos($brief_desc, $query) !== false ||
         strpos($desc, $query) !== false ||
-        strpos($author, $query) !== false ||
-        strpos($name, $query) !== false)
+        strpos($authors, $query) !== false ||
+        strpos($maintainers, $query) !== false ||
+        strpos(strtoupper($name), $query) !== false)
       $stack_results[$name] = $stack;
   }
 }  
@@ -72,7 +78,7 @@ $answer .= "relating to '" . $query_string . "'";
 <p><?php echo $answer ?></p>
 
 <?php if (count($stack_results) > 0) { ?>
-<a name="stacks"/><h2>Stacks or Metapackages relating to <?php echo $query_string ?> </h2>
+<a name="stacks"/><h2>Stacks or Metapackages relating to '<?php echo $query_string ?>'</h2>
 <table>
 <tr><th>Name</th><th>Description</th></tr>
 <?php
@@ -97,7 +103,7 @@ foreach($stack_results as $name => $stack)
 
 
 <?php if (count($package_results) > 0) { ?>
-<a name="packages"/><h2>Packages relating to <?php echo $query_string ?> </h2>
+<a name="packages"/><h2>Packages relating to '<?php echo $query_string ?>'</h2>
 <table>
 <tr><th>Name</th><th>Description</th></tr>
 <?php
