@@ -1,0 +1,43 @@
+<?php
+$title = $_GET['name'];
+include "rosbrowse.inc";
+include "load_megastack.inc";
+$xquery = "/stacks/stack[@name='{$_GET['name']}']";
+$stack = $xml->xpath($xquery);
+$stack = $stack[0];
+?>
+<h1><?php echo $stack['name']; ?></h1>
+<p><i><?php echo (string)$stack->description['brief']; ?></i></p>
+<p><b>Author(s):</b> <?php echo $stack->author; ?></p>
+<p><b>License:</b> <?php echo $stack->license; ?></p>
+<p><b>Repository:</b> <?php echo $stack['repo_host'] ?> &nbsp;&nbsp; <a href="<?php echo $stack['repo_host'] . $stack['path']; ?>"> browse code </a></p>
+<?php if ($pkg->url) { ?>
+<p><b>Website:</b> <a href="<?php echo $stack->url ?>"><?php echo $stack->url; ?></a></p>
+<?php } ?>
+<?php if ($pkg->depend) { ?>
+<p><b>Dependencies:</b>
+<?php
+foreach($stack->depend as $stack)
+{
+  echo "<a href=\"stack.php?name=" . urlencode($dep['stack']) . "\">" . $dep['stack'] . "</a>&nbsp;&nbsp;&nbsp; ";
+}
+?>
+</p>
+<?php } ?>
+<p><b>Description:</b> <?php echo $stack->description; ?></p>
+<hr />
+<p><b>Packages:</b>
+<ul>
+<?php
+foreach($stack->package as $pkg)
+{
+  echo "<li><a href=\"details.php?name=".urlencode($pkg['name'])."\">".$pkg['name']."</a></li>";
+}
+?>
+</ul>
+<hr />
+<p><a href="stack_list.php">Return to list of all stacks</a></p>
+</table>
+</body>
+</html>
+

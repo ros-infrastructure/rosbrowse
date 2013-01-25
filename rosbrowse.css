@@ -1,0 +1,60 @@
+body
+{
+  background-color: white;
+  font-family: Arial, Verdana, Sans-serif;
+}
+
+table.menu
+{
+margin-top: 20px; 
+}
+
+td.menu
+{
+//  padding-top: 0px;
+//  padding-bottom: 10px;
+//  padding-right: 15px;
+//  padding-left: 15px;
+//  background-color: #900;
+//  color: white;
+}
+
+td.menu-title
+{
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+//  background-color: #900;
+//  color: white;
+  font-size: xx-large;
+}
+
+
+a.menu
+{
+font-size: 16pt;
+//  color: white;
+}
+
+th
+{
+  font-weight: bold;
+  text-align: left;
+  border-top: 0;
+  border-bottom: 1px solid black;
+  padding: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+td.pkgname
+{
+  background-color: #eee;
+}
+
+h1.title
+{
+  font-size: xx-large;
+}
+

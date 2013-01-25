@@ -1,0 +1,2711 @@
+- 'brief': 'warehouse'
+  'description': 'warehouse'
+  'name': 'warehousewg'
+  'repo': 'warehousewg'
+- 'brief': 'rosjava core'
+  'description': "\n    rosjava provides a pure-Java implementation of ROS that also\n\
+    \    supports Android.  rosjava_core contains the core rosjava packages\n    necessary\
+    \ for ROS integration.\n  "
+  'name': 'rosjava_core'
+  'repo': 'rosjava_core'
+- 'brief': 'ais_bonn_pcl_addons'
+  'description': 'ais_bonn_pcl_addons'
+  'name': 'ais_bonn_pcl_addons'
+  'repo': 'ais-bonn-ros-pkg'
+- 'brief': 'orocos_kinematics_dynamics'
+  'description': 'orocos_kinematics_dynamics'
+  'name': 'orocos_kinematics_dynamics'
+  'repo': 'orocos_kinematics_dynamics'
+- 'brief': 'prairiedog robot platform'
+  'description': "\n\n     This includes all of the CU Boulder prairiedog packages.\n\
+    \n  "
+  'name': 'prairiedog'
+  'repo': 'prairiedog'
+- 'brief': 'head_interaction_behavior'
+  'description': 'head_interaction_behavior'
+  'name': 'head_interaction_behavior'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'aaai_lfd_demo'
+  'description': 'Infrastructure for the 2011 AAAI-LfD Challenge'
+  'name': 'aaai_lfd_demo'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'rovio'
+  'description': 'rovio'
+  'name': 'rovio-eol'
+  'repo': 'iheart-ros-pkg'
+- 'brief': 'REEM arm navigation configuration and launch files.'
+  'description': "\n    The contents of this stack are based on the original pr2_arm_navigation,\
+    \ and has been following its evolution since\n    the Boxturtle release, hence\
+    \ credit for its contents goes mainly to the authors of the original stack.\n\
+    \    The authors listed in this stack's packages have mostly adapting the original\
+    \ work to the REEM robot.\n  "
+  'name': 'reem_arm_navigation'
+  'repo': 'reem_arm_navigation'
+- 'brief': 'GPS drivers (incl. GPSd) and map projection utilities'
+  'description': "\n    This stack provides a ROS binding for the GPS receivers that\
+    \ are supported\n    by the GPSd software (http://gpsd.berlios.de/).\n  "
+  'name': 'gps_umd'
+  'repo': 'umd-ros-pkg'
+- 'brief': 'ecl_lite'
+  'description': 'Firmware style code implementations'
+  'name': 'ecl_lite'
+  'repo': 'ecl_lite'
+- 'brief': 'krypton_hardware'
+  'description': "\n\n    The krypton_hardware stack contains all code to set-up communication\
+    \ with any <a href=\"http://www.nikonmetrology.com/optical__cmm/\">Nikon K-Series\
+    \ Optical CMM</a>, used in combination with a High Frequency (HF) - controller,\
+    \ and read out pose measurements.\n    <ul>\n      <li>For low level interaction,\
+    \ the <a href=\"http://www.ros.org/wiki/krypton\">krypton</a> package provides\
+    \ methods to start and read out data from the HF-controller.</li>\n      <li>For\
+    \ high level interaction, the <a href=\"http://www.ros.org/wiki/krypton_component\"\
+    >krypton_component</a> contains an Orocos component wrapped around the <a href=\"\
+    http://www.ros.org/wiki/krypton\">krypton</a> library to stream all data to ROS\
+    \ nodes.</li>\n    </ul>\n\n  "
+  'name': 'krypton_hardware'
+  'repo': 'krypton_hardware'
+- 'brief': 'Drivers for IMUs'
+  'description': "\n    A stack for any drivers relating to Inertial Measurement Units\
+    \ (IMU).\n  "
+  'name': 'imu_drivers'
+  'repo': 'ros-pkg'
+- 'brief': 'guardian-ros-pkg'
+  'description': 'guardian-ros-pkg'
+  'name': 'guardian-ros-pkg'
+  'repo': 'guardian-ros-pkg'
+- 'brief': 'bosch_surface_reconstruction'
+  'description': 'bosch_surface_reconstruction'
+  'name': 'bosch_surface_reconstruction'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'mpi'
+  'description': "\n     The mpi stack contains tools for high performance Message\
+    \ Passing between\n     nodes in a distributed multi-processor system.\n   "
+  'name': 'mpi'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'RCPRG_robots_gazebo'
+  'description': 'RCPRG_robots_gazebo'
+  'name': 'RCPRG_robots_gazebo'
+  'repo': 'RCPRG_robots_gazebo'
+- 'brief': 'assimp'
+  'description': 'assimp'
+  'name': 'assimp'
+  'repo': 'assimp'
+- 'brief': 'machine_learning'
+  'description': 'machine_learning'
+  'name': 'machine_learning'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'cob_scenarios'
+  'description': 'cob_scenarios'
+  'name': 'cob_scenarios'
+  'repo': 'cob_scenarios'
+- 'brief': 'kitchen_models'
+  'description': 'kitchen_models'
+  'name': 'bosch_kitchen_models'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'R-Harmony: bringing robots and people together since 2010.'
+  'description': "\n    R-Harmony is a collection of people perception technologies,\
+    \ aimed at bringing people and robots together...  \n  "
+  'name': 'rharmony'
+  'repo': 'albany-ros-pkg'
+- 'brief': 'ethzasl_aseba'
+  'description': "\n    Bridge to access an ASEBA network from ROS.\n    For more\
+    \ information about aseba, see: http://mobots.epfl.ch/aseba.html\n  "
+  'name': 'ethzasl_aseba'
+  'repo': 'ethzasl_aseba'
+- 'brief': 'cob_object_perception'
+  'description': 'cob_object_perception'
+  'name': 'cob_object_perception'
+  'repo': 'cob_object_perception'
+- 'brief': 'rtt_geometry'
+  'description': 'rtt_geometry'
+  'name': 'rtt_geometry'
+  'repo': 'rtt_geometry'
+- 'brief': 'world_db_model'
+  'description': "\n    world_db_model is a framework for creating and maintaining\
+    \ a\n    consistent and persistent state of the world. The idea is to\n    record\
+    \ raw sensor data in bags and provide the results an\n    interface to spatially\
+    \ query detector results. The results of\n    detector plug-ins are calculated\
+    \ on demand and cached in an\n    sqlite3 database. world_db_model provides a\
+    \ core node that\n    contains the basic functionality to load plug-ins, record\
+    \ data\n    into bags and play them back and store detection results. Further,\n\
+    \    it provides a plug-in for recording the tf-tree which is essential\n    for\
+    \ spatial indexing in the bags, and a library for the easy\n    creation of detector\
+    \ plug-ins.\n  "
+  'name': 'world_db_model'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'clearpath_kinect'
+  'description': "\n    This stack contains general-purpose software for working with\
+    \ Clearpath Robotics platforms equipped with a Kinect sensor.\n  "
+  'name': 'clearpath_kinect'
+  'repo': 'clearpath-ros-pkg'
+- 'brief': 'quickdev'
+  'description': 'quickdev'
+  'name': 'quickdev'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'ROS integration for the Nao humanoid robot (drivers / wrappers and messages).'
+  'description': "\n  <p>\n     The nao_robot stack contains some useful nodes to\
+    \ integrated the Nao humanoid robot into ROS, \n     developed at the <a href=\"\
+    http://hrl.informatik.uni-freiburg.de/\">Humanoid Robots Lab</a> \n     at the\
+    \ Albert-Ludwigs-Unversitaet in Freiburg, Germany.\n     It provides basic functionality\
+    \ and can be installed on the robot. It should be used with the \n       <a href=\"\
+    http://www.ros.org/wiki/nao_common\">nao_common stack</a> for more functionality.\
+    \ \n     The <a href=\"http://www.ros.org/wiki/humanoid_navigation\">\n     humanoid_navigation\
+    \ stack</a> contains some more general packages for \n     humanoid / biped robots.\n\
+    \   </p>\n   <p>\n     Files are available at <a href=\"http://code.google.com/p/alufr-ros-pkg/\"\
+    >http://code.google.com/p/alufr-ros-pkg/</a>, \n     documentation at <a href=\"\
+    http://www.ros.org/wiki/nao_robot\">http://www.ros.org/wiki/nao</a>.\n   </p>\n\
+    \n  "
+  'name': 'nao_robot'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'haptic_event_detector'
+  'description': 'haptic_event_detector'
+  'name': 'haptic_event_detector'
+  'repo': 'haptic_event_detector'
+- 'brief': 'geometry_tutorials'
+  'description': 'geometry_tutorials'
+  'name': 'geometry_tutorials'
+  'repo': 'geometry_tutorials'
+- 'brief': 'robot_model_python'
+  'description': "\n\n    Python implementation of the URDF and KDL parsing utilities\
+    \ found in the robot_model stack.\n  \n  "
+  'name': 'robot_model_python'
+  'repo': 'gt-ros-pkg'
+- 'brief': 'sarkofag_robot'
+  'description': 'sarkofag_robot'
+  'name': 'sarkofag_robot'
+  'repo': 'sarkofag_robot'
+- 'brief': 'client_rosjava'
+  'description': 'client_rosjava'
+  'name': 'client_rosjava_jni'
+  'repo': 'client_rosjava_jni'
+- 'brief': 'virtual_reality'
+  'description': 'Nodes to interact with virtual reality devices'
+  'name': 'virtual_reality'
+  'repo': 'veltrop-ros-pkg'
+- 'brief': 'recovery_shared_autonomy'
+  'description': ' The recovery_shared_autonomy stack is an independent extension
+    of the SMACH library. It includes an autonomous failure recovery mode and an expert
+    interface module. It also includes tools for introspection and ROS integration.'
+  'name': 'recovery_shared_autonomy'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'rgbd_tools'
+  'description': "\n    A collection of tools for use with Kinect-like devices.\n\
+    \  "
+  'name': 'rgbd_tools'
+  'repo': 'vanadium-ros-pkg'
+- 'brief': 'fcl_ros'
+  'description': 'fcl_ros'
+  'name': 'fcl_ros'
+  'repo': 'fcl_ros'
+- 'brief': 'ros_pandora_generic'
+  'description': 'ros_pandora_generic'
+  'name': 'ros_pandora_generic'
+  'repo': 'pandora-auth-ros-pkg'
+- 'brief': 'GUI tools for working with PR2 robots'
+  'description': "\n\n    Contains GUI tools for working with PR2s.\n\n  "
+  'name': 'pr2_gui'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Packages from the Stanford AI Lab'
+  'description': "\n    Various packages developed by various authors at the Stanford\
+    \ AI lab. \n    Some are quite functional and stable, and others are obsolete\
+    \ or\n    otherwise broken. I have attempted to indicate at least some of their\n\
+    \    status by the top-level directory name.\n  "
+  'name': 'stanford-ros-pkg'
+  'repo': 'stanford-ros-pkg'
+- 'brief': 'artoolkitplus'
+  'description': 'artoolkitplus'
+  'name': 'artoolkitplus'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'wu experiment procedures and nodes'
+  'description': "\n    All of the HRI user studies we run in the robot lab.\n  "
+  'name': 'wu_experiments'
+  'repo': 'wu-ros-pkg'
+- 'brief': 'Webots'
+  'description': "\n    Tools for using ROS with the <a href=\"http://www.cyberbotics.com\"\
+    >Webots</a> commercial simulation software.\n  "
+  'name': 'webots'
+  'repo': 'webots-ros-pkg'
+- 'brief': 'ias_web_apps'
+  'description': 'ias_web_apps'
+  'name': 'ias_web_apps'
+  'repo': 'tum-ros-pkg'
+- 'brief': 'Common code for working with audio'
+  'description': "\n    Common code for working with audio in ROS\n  "
+  'name': 'audio_common'
+  'repo': 'audio_common'
+- 'brief': 'bilibot'
+  'description': 'bilibot'
+  'name': 'bilibot'
+  'repo': 'bilibot-ros-pkg'
+- 'brief': 'veltrop_stereo'
+  'description': ' Stuff for streo vision.'
+  'name': 'veltrop_stereo'
+  'repo': 'veltrop-ros-pkg'
+- 'brief': 'socialize'
+  'description': 'socialize'
+  'name': 'socialize'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'Drivers and Apps for the Mini Maxwell robot platform'
+  'description': ''
+  'name': 'mini_max'
+  'repo': 'vanadium-ros-pkg'
+- 'brief': 'lse_messages'
+  'description': "\n  \n  \tThis stack contains messages that are commonly used on\
+    \ the LSE but are not available on the ROS messages stack.\n  \n  "
+  'name': 'lse_messages'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'itasc_tasks'
+  'description': 'itasc_tasks'
+  'name': 'itasc_tasks'
+  'repo': 'itasc_tasks'
+- 'brief': 'asctec_mav_framework'
+  'description': 'Framework for data aquisition and position control to be used with
+    the highlevel processor of Ascending Technologies helicopters '
+  'name': 'asctec_mav_framework'
+  'repo': 'asctec_mav_framework'
+- 'brief': 'visualization_experimental'
+  'description': 'visualization_experimental'
+  'name': 'visualization_experimental'
+  'repo': 'visualization_experimental'
+- 'brief': 'Perception code for transparent/reflective objects'
+  'description': 'transflective_perception'
+  'name': 'transflective_perception'
+  'repo': 'transflective_perception'
+- 'brief': 'PR2 Controllers'
+  'description': "\n    Contains the controllers that run in realtime on the PR2 and\
+    \ supporting packages.\n  "
+  'name': 'pr2_controllers'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Modeling robot information'
+  'description': "\n    <tt>robot_model</tt> contains packages for modeling various\n\
+    \    aspects of robot information, specified in the Xml Robot\n    Description\
+    \ Format (URDF). The core package of this stack\n    is <a href=\"http://ros.org/wiki/urdf\"\
+    >urdf</a>, which parses URDF files, and constructs an\n    object model (C++)\
+    \ of the robot.\n  "
+  'name': 'robot_model'
+  'repo': 'robot_model'
+- 'brief': 'roslisp support'
+  'description': 'Support stack for roslisp that brings in required sbcl runtime'
+  'name': 'roslisp_support'
+  'repo': 'roslisp_support'
+- 'brief': 'The CRAM Plan Language stack'
+  'description': "\n    A set of libraries for implementing AI enabled robot control\
+    \ programs.\n  "
+  'name': 'cram_pl'
+  'repo': 'cram_pl'
+- 'brief': 'behavior_engine'
+  'description': 'behavior_engine'
+  'name': 'behavior_engine'
+  'repo': 'behavior_engine'
+- 'brief': 'cob_environment_perception'
+  'description': 'cob_environment_perception'
+  'name': 'cob_environment_perception'
+  'repo': 'cob_environment_perception'
+- 'brief': 'social'
+  'description': 'social'
+  'name': 'social'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Laser drivers for Hokuyo and SICK laser rangefinders'
+  'description': "\n  This stack contains drivers for laser rangefinders, including\
+    \ Hokuyo SCIP 2.0-compliant and SICK models.\n  "
+  'name': 'laser_drivers'
+  'repo': 'ros-pkg'
+- 'brief': 'planar navigation stack'
+  'description': "\n    A 2D navigation stack that takes in information from odometry,\
+    \ sensor\n    streams, and a goal pose and outputs safe velocity commands that\
+    \ are sent\n    to a mobile base.\n  "
+  'name': 'navigation'
+  'repo': 'navigation'
+- 'brief': 'recovery_smach_visualization'
+  'description': "\n    The recovery_smach_visualization stack contains the SMACH\
+    \ RECCOVERY library, together\n    with tools for introspection and a ROS integration\
+    \ package.\n  "
+  'name': 'recovery_smach_visualization'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'SMACH GUI'
+  'description': 'Packages for running GUI for editing SMACH state machines.'
+  'name': 'rcommander'
+  'repo': 'rcommander'
+- 'brief': 'seabee3-ros-pkg'
+  'description': 'seabee3-ros-pkg'
+  'name': 'seebee3'
+  'repo': 'seebee3'
+- 'brief': 'cram_process_modules_pr2'
+  'description': 'cram_process_modules_pr2'
+  'name': 'cram_pr2'
+  'repo': 'cram_pr2'
+- 'brief': 'itasc_solvers'
+  'description': 'itasc_solvers'
+  'name': 'itasc_solvers'
+  'repo': 'itasc_solvers'
+- 'brief': 'bosch_texture_reconstruction'
+  'description': 'bosch_texture_reconstruction'
+  'name': 'bosch_texture_reconstruction'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'Control and query a WowWee Rovio.'
+  'description': 'The rovio stack contains packages to control and query a WowWee
+    Rovio.'
+  'name': 'rovio'
+  'repo': 'wpi-rail-ros-pkg'
+- 'brief': 'freiburg_tools'
+  'description': "\n  This stack contains several tools developed by the University\
+    \ of Freiburg, like RGBDSLAM, a Webcam driver, a checkerboard detector, the Gaussian\
+    \ Process library, the HOGMAN graph optimizer, etc.\n  "
+  'name': 'freiburg_tools'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'Visualization tools for ROS'
+  'description': "\n\n     Visualization tools for robots.  Currently just <a href=\"\
+    http://www.ros.org/wiki/rviz\">rviz</a>, a 3d visualization environment for robots\
+    \ using ROS, as well as <a href=\"http://www.ros.org/wiki/rxbag_plugins\">rxbag_plugins</a>,\
+    \ which extend the visualization capabilities of <a href=\"http://www.ros.org/wiki/rxbag\"\
+    >rxbag</a>. \n\n  "
+  'name': 'visualization'
+  'repo': 'ros-pkg'
+- 'brief': 'PR2 Power Drivers'
+  'description': "\n\n     Power drivers for the PR2 robot.\n\n  "
+  'name': 'pr2_power_drivers'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'ias_perception'
+  'description': 'ias_perception'
+  'name': 'ias_perception'
+  'repo': 'ias_perception'
+- 'brief': 'janitor'
+  'description': "\n    Janitorial functions for the PR2, running in continuous operations\n\
+    \    mode.\n  "
+  'name': 'janitorial'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'bosch_proximity_sensor'
+  'description': 'bosch_proximity_sensor'
+  'name': 'bosch_proximity_sensor'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'web_apps_experimental'
+  'description': 'web_apps_experimental'
+  'name': 'web_apps_experimental'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'turtlebot_viz'
+  'description': 'turtlebot_viz'
+  'name': 'turtlebot_viz'
+  'repo': 'turtlebot_viz'
+- 'brief': 'Experimental packages - unreliable and/or idiosyncratic'
+  'description': "\n    Experimental packages - unreliable and/or idiosyncratic\n\
+    \    "
+  'name': 'ua_experimental'
+  'repo': 'ua-ros-pkg'
+- 'brief': 'opencv'
+  'description': "\n\n    opencv c++ and python libraries.\n\n  "
+  'name': 'vision_opencv'
+  'repo': 'ros-pkg'
+- 'brief': 'geometric_relations_semantics'
+  'description': 'geometric_relations_semantics'
+  'name': 'geometric_relations_semantics'
+  'repo': 'geometric_relations_semantics'
+- 'brief': 'sbpl_dynamic_env'
+  'description': 'sbpl_dynamic_env'
+  'name': 'sbpl_dynamic_env'
+  'repo': 'sbpl_dynamic_env'
+- 'brief': 'cwru_semi_stable'
+  'description': 'cwru_semi_stable'
+  'name': 'cwru_semi_stable'
+  'repo': 'cwru-ros-pkg'
+- 'brief': 'Diagnostics GUI tools'
+  'description': 'GUI tools for diagnostics visualization.'
+  'name': 'diagnostics_monitors'
+  'repo': 'ros-pkg'
+- 'brief': 'remote_lab'
+  'description': "\n  \tA stack of tools for remote control, tele-op and remote labs.\
+    \ \n  "
+  'name': 'remote_lab'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'pr2_cockpit'
+  'description': "\n    The pr2_cockpit stack runs the teleoperation setup at Willow\n\
+    \    Garage, including device drivers, realtime controllers, and launch\n    scripts.\n\
+    \  "
+  'name': 'pr2_cockpit'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'pr2_kinematics'
+  'description': 'This stack contains an implementation of kinematics for the PR2
+    robot.'
+  'name': 'pr2_kinematics'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'starmac_robots'
+  'description': "\n  "
+  'name': 'starmac_robots'
+  'repo': 'starmac-ros-pkg'
+- 'brief': 'navigation experimental'
+  'description': 'Experimental features for future releases of the navigation stack.'
+  'name': 'navigation_experimental'
+  'repo': 'navigation_experimental'
+- 'brief': 'REEM simulation components'
+  'description': "\n    REEM-specific simulation components. These include\n    plugins\
+    \ and launch scripts necessary for running REEM in simulation.\n  "
+  'name': 'reem_simulation'
+  'repo': 'reem_simulation'
+- 'brief': 'Packages related to Videre Erratic mobile robot'
+  'description': "\n        This stack contains packages that are used to interface\
+    \ with Videre\n        Erratic mobile robot. These include the hardware interface\
+    \ driver,\n        URDF description, 3D meshes, navigation stack configuration\
+    \ and\n        launch files and keyboard teleoperation node.\n    "
+  'name': 'erratic_robot'
+  'repo': 'erratic_robot'
+- 'brief': 'Tools for humanoids walking movement generation.'
+  'description': "\n\n    This stack gathers tools to generate walking movements for\
+    \ humanoids robots.\n\n    It provides both C++ interfaces through walk_interfaces,\
+    \ ROS\n    interfaces through walk_msgs and pattern generators algorithms.\n  "
+  'name': 'humanoid_walk'
+  'repo': 'stacks/humanoid_walk'
+- 'brief': 'literate_pr2'
+  'description': 'Literate PR2. Text detection and recognition for indoor environment'
+  'name': 'literate_pr2'
+  'repo': 'literate_pr2'
+- 'brief': 'ias_nav'
+  'description': 'ias_nav'
+  'name': 'ias_nav'
+  'repo': 'tum-ros-pkg'
+- 'brief': 'object_recognition'
+  'description': 'object_recognition'
+  'name': 'object_recognition'
+  'repo': 'object_recognition'
+- 'brief': 'video game inspired control of multiple robots'
+  'description': "\n\n     Video game inspired control of multiple robots\n\n  "
+  'name': 'ride'
+  'repo': 'wu-ros-pkg'
+- 'brief': 'roboard'
+  'description': "\n  Contains packages to control servos and read sensors of the\
+    \ \n  Roboard.  Also includes the RoBoIO library for the Roboard.\n  "
+  'name': 'roboard'
+  'repo': 'veltrop-ros-pkg'
+- 'brief': 'executive_smach'
+  'description': "\n    The executive_smach stack contains the SMACH library, together\n\
+    \    with tools for introspection and a ROS integration package.\n  "
+  'name': 'executive_smach_visualization'
+  'repo': 'executive_smach_visualization'
+- 'brief': 'Virtual visual servoing stack'
+  'description': "\n\n    This stack wraps ViSP, the virtual visual servoing platform\
+    \ into\n    ROS.\n\n    In particular, visp_tracker allows online object tracking.\n\
+    \n  "
+  'name': 'vision_visp'
+  'repo': 'stacks/vision_visp'
+- 'brief': 'Packages for Colbot robot'
+  'description': "\n    Colbot experimental robot custom packages\n  "
+  'name': 'colbot-ros-pkg'
+  'repo': 'colbot-ros-pkg'
+- 'brief': 'cob_people_perception'
+  'description': 'cob_people_perception'
+  'name': 'cob_people_perception'
+  'repo': 'cob_people_perception'
+- 'brief': 'JKU_Robotic_Stack'
+  'description': 'JKU_Robotic_Stack'
+  'name': 'JKU_Robotic_Stack'
+  'repo': 'JKU_Robotic_Stack'
+- 'brief': 'continuous_ops'
+  'description': 'continuous_ops'
+  'name': 'continuous_ops'
+  'repo': 'continuous_ops'
+- 'brief': 'control'
+  'description': 'control'
+  'name': 'control'
+  'repo': 'control'
+- 'brief': 'patrol'
+  'description': 'Multi-Robot Patrol-Related Stack from the ISR Coimbra.'
+  'name': 'patrol'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'Applications for robots running at Willow Garage'
+  'description': 'Basic applications for PR2 robots running at Willow Garage.'
+  'name': 'wg_pr2_apps'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'ucla-robomagellan'
+  'description': 'UCLA-robomagellan'
+  'name': 'UCLA-robomagellan'
+  'repo': 'UCLA-robomagellan'
+- 'brief': 'Drivers and arm navigation for Neuronics Katana 450 robot arm'
+  'description': "\n\n    This stack contains hardware drivers for the\n    <a href=\"\
+    http://neuronics.ch/cms_en/web/index.php?lid=54\">Neuronics Katana 450 robot arm</a>,\n\
+    \    along with a port of the arm navigation pipeline.\n\n  "
+  'name': 'katana_driver'
+  'repo': 'uos-ros-pkg'
+- 'brief': 'visual_feature_detectors'
+  'description': "\n\n     Visual feature and object detectors.\n\n  "
+  'name': 'visual_feature_detectors'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'BOSCH image processing tools'
+  'description': 'Contains tools for image processing'
+  'name': 'bosch_image_proc'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'starmac_ground'
+  'description': 'starmac_ground'
+  'name': 'starmac_ground'
+  'repo': 'starmac-ros-pkg'
+- 'brief': 'cob_web'
+  'description': 'cob_web'
+  'name': 'cob_web'
+  'repo': 'cob_web'
+- 'brief': 'Power-On-and-Go Calibration'
+  'description': "\n    The Power-On-and-Go (POGO) stack provides packages for visual\
+    \ and\n    visual-inertial sensor calibration, with the goal of enabling \n  \
+    \  persistent autonomous operation.\n  "
+  'name': 'pogo'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'Real-time control framework for redundant manipulators.'
+  'description': "\n\n    Real-time control framework for redundant manipulators.\n\
+    \n  "
+  'name': 'redundant_manipulator_control'
+  'repo': 'stacks/redundant_manipulator_control'
+- 'brief': 'Open Robotics Automation Virtual Environment ROS Bindings'
+  'description': "\n    This stack offers OpenRAVE-related bindings.\n    Maintained\
+    \ by the JSK lab at University of Tokyo.\n  "
+  'name': 'openrave_planning'
+  'repo': 'jsk-ros-pkg'
+- 'brief': 'Exploration stack for the PR2'
+  'description': "\n     Exploration stack for the PR2.\n  "
+  'name': 'pr2_exploration'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'mapping'
+  'description': "\n\n    Collection of routines and functions for 3D mapping@IAS.\n\
+    \n  "
+  'name': 'mapping'
+  'repo': 'mapping'
+- 'brief': 'ivs-ros-pkg'
+  'description': 'ivs-ros-pkg'
+  'name': 'ivs-ros-pkg'
+  'repo': 'ivs-ros-pkg'
+- 'brief': 'ArbotiX drivers and other stuff'
+  'description': "\n    This stack provides comprehensive access to the ArbotiX RoboController\
+    \ and associated peripherals. \n  "
+  'name': 'arbotix'
+  'repo': 'vanadium-ros-pkg'
+- 'brief': 'lse_arduino'
+  'description': "\n  \n  \tA stack for arduino related packages for ROS.\n  \t\n\
+    \  "
+  'name': 'lse_arduino'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'kt2_simulator'
+  'description': 'kt2_simulator'
+  'name': 'kt2_simulator'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'kurt_driver'
+  'description': 'kurt_driver'
+  'name': 'kurt_driver'
+  'repo': 'uos-ros-pkg'
+- 'brief': 'Micro-air vehicle tools for ROS'
+  'description': 'Hardware-independent micro-air vehicle tools'
+  'name': 'mav_tools'
+  'repo': 'mav_tools'
+- 'brief': 'ias_visualization'
+  'description': "\n    ias_visualization is a collection of visualization messages\
+    \ and accompanying rviz plugins\n  "
+  'name': 'ias_visualization'
+  'repo': 'tum-ros-pkg'
+- 'brief': 'vanadium_robots'
+  'description': 'This stack contains configuration files, launch files, and application
+    code for robots developed at Vanadium Labs.'
+  'name': 'vanadium_robots'
+  'repo': 'vanadium-ros-pkg'
+- 'brief': 'simulator_plumesim'
+  'description': "\n  \n  \tOdor plume simulator for ROS.\n   \n  "
+  'name': 'simulator_plumesim'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'orocos_toolchain'
+  'description': "\n\n      This stack contains all software necessary to build\n\
+    \      systems using the Orocos Toolchain.\n  "
+  'name': 'orocos_toolchain'
+  'repo': 'orocos_toolchain'
+- 'brief': 'Controllers for the Wubble Robot'
+  'description': "\n  This stack contains higher level controllers for the Wubble\
+    \ Robot, which \n  generally depend on packages in the ua_drivers stack for interfacing\
+    \ with \n  the hardware. Thus, packages in this stack provide a higher level of\
+    \ \n  abstraction for Wubble Robot subsystems than ua_drivers.\n  "
+  'name': 'ua_controllers'
+  'repo': 'ua-ros-pkg'
+- 'brief': 'ce_common'
+  'description': 'ce_common'
+  'name': 'ce_common'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'collvoid'
+  'description': 'Multi Robot Collision Avoidance'
+  'name': 'multi_robot_collision_avoidance'
+  'repo': 'multi_robot_collision_avoidance'
+- 'brief': 'dynamic_graph'
+  'description': "\n\n    This stack gathers the HRP-2 control packages and its\n\
+    \    dependencies.\n\n  "
+  'name': 'jrl-ros-pkg'
+  'repo': 'jrl-ros-pkg'
+- 'brief': 'turtlebot'
+  'description': 'The turtlebot stack provides all the basic drivers for running and
+    using a TurtleBot. '
+  'name': 'turtlebot'
+  'repo': 'turtlebot'
+- 'brief': 'Nodelet core'
+  'description': "\n    Nodelets library and tools.  Nodelets are a plugin architecture\
+    \ for roscpp that enable\n    dynamic loading of multiple 'nodelets' into a single\
+    \ ROS node instance.\n  "
+  'name': 'nodelet_core'
+  'repo': 'nodelet_core'
+- 'brief': 'Eigen Library'
+  'description': "\n     Eigen Library\n  "
+  'name': 'eigen'
+  'repo': 'eigen'
+- 'brief': 'cram_demo_apps'
+  'description': 'cram_demo_apps'
+  'name': 'cram_demo_apps'
+  'repo': 'tum-ros-pkg'
+- 'brief': 'vmi'
+  'description': "\n\tMetaStack which depends on all other stacks.\n\tFor Debian.\n"
+  'name': 'vmi'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'lse_imu_drivers'
+  'description': "\n  \tThis stack contains drivers for IMUs. Currently it only has\
+    \ support for the Xsens MTi.\n  "
+  'name': 'lse_imu_drivers'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'filters'
+  'description': 'This library provides a standardized interface for processing data
+    as a sequence of filters. This package contains a base class upon which to build
+    specific implementations as well as an interface which dynamically loads filters
+    based on runtime parameters. '
+  'name': 'filters'
+  'repo': 'filters'
+- 'brief': 'multimaster'
+  'description': 'Multimaster is a script allowing to register topics and services
+    at a second master and to subscribe to topics and services from a second master. '
+  'name': 'multimaster'
+  'repo': 'multimaster'
+- 'brief': 'panorama'
+  'description': 'Create panoramic images'
+  'name': 'pano'
+  'repo': 'ros-pkg'
+- 'brief': 'Experimental/research packages related to perceiving and interacting with
+    people.'
+  'description': 'people_experimental'
+  'name': 'people_experimental'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'itasc_core'
+  'description': 'itasc_core unary stack'
+  'name': 'itasc_core'
+  'repo': 'itasc_core'
+- 'brief': 'Build environment support for embedded ros'
+  'description': "\n    This stack includes supporting components to enable ros development\
+    \ on embedded boards.\n  "
+  'name': 'eros'
+  'repo': 'eros'
+- 'brief': 'ethercat_diag_tools'
+  'description': 'ethercat_diag_tools'
+  'name': 'ethercat_diag_tools'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'simple_capture'
+  'description': 'simple_capture'
+  'name': 'simple_object_capture'
+  'repo': 'simple_object_capture'
+- 'brief': 'roshpit'
+  'description': 'ROSH related packages. This is a temporary stack that is expected
+    to go away after the Diamondback release. For C Turtle and Diamondback it provides
+    a convenient way to install rosh until it is properly stabilized.'
+  'name': 'rosh_robot_plugins'
+  'repo': 'rosh_robot_plugins'
+- 'brief': 'Point Cloud Library'
+  'description': "\n    This contains the Point Cloud Library (PCL), its\n    3rd\
+    \ party dependencies, and a ROS interface for PCL nodelets.\n  "
+  'name': 'perception_pcl'
+  'repo': 'perception_pcl'
+- 'brief': 'A 2D mapping application for the PR2 robot platform.'
+  'description': "\n  "
+  'name': '2dmapping_pr2_app'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Care-O-bot stack with manipulation packages'
+  'description': "\n\n     The cob_manipulation stack includes packages that provide\
+    \ manipulation capabilities for Care-O-bot.\n\n  "
+  'name': 'cob_manipulation'
+  'repo': 'cob_manipulation'
+- 'brief': 'Bosch Sensor Skin driver and applications'
+  'description': "\n\tContains the Bosch Sensor Skin driver and demo applications.\n\
+    \  "
+  'name': 'bosch_skin'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'pr2_common_actions'
+  'description': 'pr2_common_actions'
+  'name': 'pr2_common_actions'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Software for my robot Maxwell'
+  'description': "\n    Maxwell is a custom mobile manipulator. The Maxwell stack\
+    \ contains configuration, launch, and demo applications for the Maxwell robot.\n\
+    \  "
+  'name': 'maxwell'
+  'repo': 'vanadium-ros-pkg'
+- 'brief': 'rosserial_java'
+  'description': 'rosserial_java'
+  'name': 'rosserial_java'
+  'repo': 'rosserial_java'
+- 'brief': 'Bond'
+  'description': "\n    A bond allows two processes, A and B, to know when the other\
+    \ has terminated, either cleanly or by crashing. The bond remains connected until\
+    \ it is either broken explicitly or until a heartbeat times out.\n  "
+  'name': 'bond_core'
+  'repo': 'bond_core'
+- 'brief': 'Kinematic models for articulated objects (cabinet doors and drawers),
+    including model fitting, model selection and visualization.'
+  'description': "\n\n<p>\nThis stack provides software that can recover articulation\
+    \ models given 3D or 6D pose trajectories. \n</p>\n\n<p>\nThe <a href=\"http://ros.org/wiki/articulation_msgs\"\
+    >articulation_msgs</a> package defines messages and services for exchanging trajectories\
+    \ and kinematic models.\n</p>\n\n<p>\nThe <a href=\"http://ros.org/wiki/articulation_structure\"\
+    >articulation_models</a> package provides several nodes for fitting and selecting\
+    \ kinematic models for articulated objects. We employ maximum-likelihood sample\
+    \ consensus (MLESAC) for robustly estimating the kinematic parameters, and the\
+    \ Bayesian information criterion (BIC) for selecting between alternative model\
+    \ classes. The learned model assigns likelihoods to observed trajectories, predict\
+    \ the latent configuration of the articulated object, projects the noisy poses\
+    \ onto the model, predict the Jacobian, etc.\n</p>\n\n<p>\nThe <a href=\"http://ros.org/wiki/articulation_structure\"\
+    >articulation_structure</a> package provides a service for fitting and selecting\
+    \ the kinematic model for articulated objects consisting of more than two parts.\
+    \ \n</p>\n\n<p>\nSeveral tutorials, example launch files and demonstration videos\
+    \ are available in the package <a href=\"http://ros.org/wiki/articulation_tutorials\"\
+    >articulation_tutorials</a>. \n</p>\n\n  "
+  'name': 'articulation'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'nxt_robots'
+  'description': "\n  nxt_robots provides starter robots for using NXT with ROS.\n\
+    \  "
+  'name': 'nxt_robots'
+  'repo': 'foote-nxt'
+- 'brief': 'drivers for the rwi family of robots'
+  'description': "\n\tDrivers for the robots produced by Real World Interface, Inc.\n\
+    \  "
+  'name': 'rwi'
+  'repo': 'wu-ros-pkg'
+- 'brief': 'elektron_robot'
+  'description': 'elektron_robot'
+  'name': 'elektron_robot'
+  'repo': 'elektron_robot'
+- 'brief': 'ros_gui'
+  'description': 'ros_gui'
+  'name': 'ros_gui'
+  'repo': 'ros_gui'
+- 'brief': 'elektron_kinectbot'
+  'description': "\n\tApplications for Elektron mobile robot.\n  \n    Most of them\
+    \ utilizes Microsoft Kinect sensor, hence the name of stack.\n  "
+  'name': 'elektron_kinectbot'
+  'repo': 'elektron_kinectbot'
+- 'brief': 'comm_skype'
+  'description': 'comm_skype'
+  'name': 'comm_skype'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'experimental geometry and math libraries'
+  'description': "\n    The experimental geometric and math libraries used in ros.\n\
+    \  "
+  'name': 'geometry_visualization'
+  'repo': 'geometry_visualization'
+- 'brief': 'pluginlib'
+  'description': "\n\n    The pluginlib package provides tools for writing and dynamically\
+    \ loading plugins using the ROS build infrastructure. To work, these tools require\
+    \ plugin providers to register their plugins in the manifest.xml of their package.\
+    \ Pluginlib includes parts of Poco from pocoproject.org\n\n  "
+  'name': 'pluginlib'
+  'repo': 'pluginlib'
+- 'brief': 'dance_demo'
+  'description': 'dance_demo'
+  'name': 'dance_demo'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Robot controllers'
+  'description': 'Various controllers for robots'
+  'name': 'uu-controllers'
+  'repo': 'uuisrc-ros-pkg'
+- 'brief': 'Demos for Bosch stacks and packages'
+  'description': "\n     A collection of demos for Bosch stacks and packages.\n  "
+  'name': 'bosch_common'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'surfels'
+  'description': 'surfels'
+  'name': 'surfels'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'vmi_experimental'
+  'description': "\n  \tVMI Experimental Stack\n  \t\n  \tThis stack is just for experimenting\
+    \ purposes. Every package contained in this stack should not be used\n  \tby other\
+    \ stable packages. When something goes stable, the package will be moved to the\
+    \ according stack.\n  \t\n  \tYou are free to the check the code contained in\
+    \ here, but be aware, that there will be probably no \n  \tlaunch file at all.\n\
+    \  \t\n  "
+  'name': 'vmi_experimental'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'Motion Analysis motion capture stack'
+  'description': "\n\n    This stack provides a bridge between the Cortex software\
+    \ from\n    Motion Analysis and ROS.\n\n    The bridge relies on evart-stream\
+    \ and evart-client software\n    written by Anthony Mallet.\n\n  "
+  'name': 'motion_analysis_mocap'
+  'repo': 'stacks/motion_analysis_mocap'
+- 'brief': 'point_cloud_perception_experimental'
+  'description': "\n     The point_cloud_perception_experimental stack contains algorithms\
+    \ and tools that deal with 3D\n     point cloud data from a variety of different\
+    \ sensing devices, but are in an experimental stage.\n   "
+  'name': 'point_cloud_perception_experimental'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Learning from Demonstration algorithms.'
+  'description': 'Learning from Demonstration algorithms developed by the RAIL research
+    group at WPI.'
+  'name': 'lfd'
+  'repo': 'wpi-rail-ros-pkg'
+- 'brief': 'Tutorials for the joystick_drivers stack.'
+  'description': "\n    This stack contains the turtle_teleop package, which contains\
+    \ tutorials\n    for the joystick_drivers stack.\n  "
+  'name': 'joystick_drivers_tutorials'
+  'repo': 'ros-pkg'
+- 'brief': 'starmac_flyer'
+  'description': "\n\n  Operation of an autonomous quadrotor vehicle: manual and autonomous\
+    \ control, interfaces to hardware, etc.\n  \n  Packages in this stack should be\
+    \ intended primarily for on-board use. Packages that will not be used on board\n\
+    \  (e.g. ground stations, post processing, etc.) should go in the starmac_ground\
+    \ stack instead.\n\n  "
+  'name': 'starmac_flyer'
+  'repo': 'starmac-ros-pkg'
+- 'brief': 'ccny_ground_station'
+  'description': 'CCNY Ground Station Tools'
+  'name': 'ccny_ground_station'
+  'repo': 'ccny_ground_station'
+- 'brief': 'Manipulation related structures'
+  'description': "\n    Includes basic manipulation related structures as well as\
+    \ a few \n    algorithms currently used at Yujin Robot.\n  "
+  'name': 'ecl_manipulation'
+  'repo': 'ecl_manipulation'
+- 'brief': 'Joystick drivers (PS3 with LED control)'
+  'description': 'Joystick drivers (PS3 with LED control)'
+  'name': 'joystick_umd'
+  'repo': 'umd-ros-pkg'
+- 'brief': 'mrpt_slam'
+  'description': 'mrpt_slam'
+  'name': 'mrpt_slam'
+  'repo': 'mrpt-ros-pkg'
+- 'brief': 'Navigation applications for the PR2 robot'
+  'description': "\n    This stack holds a collection of navigation applications that\
+    \ can be run on the PR2 robot.\n  "
+  'name': 'pr2_navigation_apps'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Common tools for the Nao robot to run     remotely on the PC (tf, joint
+    state, teleop)'
+  'description': "This stack contains common tools for the Nao robot to run\n  remotely\
+    \ on the PC together with nao_robot on\n    the robot. It provides joint state,\
+    \ odometry, and teleoperation with a\n    gamepad."
+  'name': 'nao_common'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'rx'
+  'description': 'GUI tools for ROS: rxbag, rxplot, rxgraph, and others.'
+  'name': 'rx'
+  'repo': 'rx'
+- 'brief': 'riq_hand'
+  'description': 'ROS driver and tools for Robotiq Adaptive Gripper'
+  'name': 'riq_hand'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'seabee3-ros-pkg'
+  'description': 'seabee3-ros-pkg'
+  'name': 'seabee3-ros-pkg'
+  'repo': 'seabee3-ros-pkg'
+- 'brief': 'robotino'
+  'description': 'ROS Stack for Robotino'
+  'name': 'robotino'
+  'repo': 'robotino-ros-pkg'
+- 'brief': 'Stage simulator'
+  'description': "\n\n     This is now an empty stack that forwards dependencies to\
+    \ the 'stage'\n     stack.  This will be removed in ROS Fuerte Turtle.\n\n   \
+    \  2D simulation using the Stage multi-robot simulator.\n     This stack is now\
+    \ deprecated and will be removed in Fuerte Turtle.\n     Please use the 'stage'\
+    \ stack instead.\n\n  "
+  'name': 'simulator_stage'
+  'repo': 'ros-pkg'
+- 'brief': 'symbolic_planning'
+  'description': "The symbolic_planning stack contains symbolic planners (currently\
+    \ TFD/M), \n    domain descriptions and additional packages for integration into\
+    \ ROS."
+  'name': 'symbolic_planning'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'rtt_common_msgs'
+  'description': "\n\n      This stack contains all RTT typekits for common_msgs messages\n\
+    \n  "
+  'name': 'rtt_common_msgs'
+  'repo': 'rtt_common_msgs'
+- 'brief': 'hector_common'
+  'description': 'hector_common'
+  'name': 'hector_common'
+  'repo': 'tu-darmstadt-ros-pkg'
+- 'brief': 'darpa_arm_sim_servers'
+  'description': "\n    darpa_arm_sim_servers \n  "
+  'name': 'darpa_arm_sim_servers'
+  'repo': 'darpa_arm_sim_servers'
+- 'brief': 'reem_controllers'
+  'description': "\n    Controllers that run in the pr2_controller_manager's realtime\
+    \ loop. These exist to provide a pr2-compatible\n    interface and allow to setup\
+    \ a Gazebo simulation of REEM rather easily.\n    The actual REEM robot does not\
+    \ rely on these controllers.\n  "
+  'name': 'reem_controllers'
+  'repo': 'reem_controllers'
+- 'brief': 'ISI 3D Recognition'
+  'description': "\n\n    This stack consists of tools for extracting color-and-shape\
+    \ features, solving Principal Component Analysis (PCA), and detecting objects\
+    \ using them.\n\n  "
+  'name': 'isi_3d_recognition'
+  'repo': 'isi-ros-pkg'
+- 'brief': 'REEM robot description and REEM-specific messages'
+  'description': "\n    URDF description of the robot kinematics and dynamics, 3D\
+    \ models of robot components, information required for\n    gazebo to simulate\
+    \ REEM, messages specific to REEM and machine specifications.\n  "
+  'name': 'reem_common'
+  'repo': 'reem_common'
+- 'brief': 'orocos_toolchain_ros'
+  'description': "\n\n      This stack contains all software necessary to build\n\
+    \      systems using both Orocos and ROS infrastructures. The complete\n     \
+    \ <a href=\"http://www.orocos.org/toolchain\">Orocos Toolchain</a> is integrated\
+    \ in the ROS build system and the\n      rtt_ros_integration package allows easy\
+    \ communication between Orocos components\n      and ROS nodes.\n  \n  "
+  'name': 'orocos_toolchain_ros'
+  'repo': 'orocos_toolchain_ros'
+- 'brief': 'cwru_tour_guide'
+  'description': 'cwru_tour_guide'
+  'name': 'cwru_tour_guide'
+  'repo': 'cwru-ros-pkg'
+- 'brief': 'logging'
+  'description': 'logging'
+  'name': 'logging'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'geometry and math libraries'
+  'description': "\n    The basic geometric and math libraries used in ros.\n  "
+  'name': 'geometry'
+  'repo': 'geometry'
+- 'brief': 'P2OS/ARCOS device support'
+  'description': "\n\t\tThis stack provides the p2os driver supporting any robot that\
+    \ uses either P2OS or ARCOS firmware. This stack also includes urdf definitions\
+    \ for visualization and examples to control the robot.\n\n\t"
+  'name': 'p2os'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'imu_drivers_usc'
+  'description': 'imu_drivers_usc'
+  'name': 'imu_drivers_usc'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'Cognitive Architecture for UA Robots'
+  'description': "\n    This stack will contain the cognitive architecture for the\
+    \ Wubble Robot. \n    Currently, it contains a ROS wrapper for the GBBopen blackboard\
+    \ system.\n    "
+  'name': 'ua_cognition'
+  'repo': 'ua-ros-pkg'
+- 'brief': 'schunk_modular_robotics'
+  'description': 'schunk_modular_robotics'
+  'name': 'schunk_modular_robotics'
+  'repo': 'schunk_modular_robotics'
+- 'brief': 'cram_process_modules_rosie'
+  'description': 'cram_process_modules_rosie'
+  'name': 'cram_rosie'
+  'repo': 'cram_rosie'
+- 'brief': 'vision'
+  'description': "\n\n    These are vision-related packages.\n\n  "
+  'name': 'vision'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Classes and tools useful to many driver stacks.'
+  'description': "\n\n  The driver_common stack contains classes and tools that are\
+    \ useful\n  throughout the driver stacks. It currently contains:\n \n  <ul>\n\
+    \   <li>\n     dynamic_reconfigure: A dynamic reconfiguration system to allow\
+    \ node \n     parameters to be changed without restarting the node.\n   </li>\n\
+    \   <li>\n     driver_base: A base class for sensors to provide a consistent state\
+    \ machine\n   (retries, error handling, etc.) and interface.\n   </li>\n   <li>\n\
+    \     timestamp_tools: Classes to help timestamp hardware events.\n   </li>\n\
+    \  </ul>\n\n  "
+  'name': 'driver_common'
+  'repo': 'ros-pkg'
+- 'brief': 'andsim'
+  'description': 'andsim'
+  'name': 'andsim'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'industrial'
+  'description': 'industrial'
+  'name': 'industrial'
+  'repo': 'swri-ros-pkg'
+- 'brief': 'clearpath_husky'
+  'description': "\n    The clearpath_husky stack provides a central repository of\
+    \ software\n    and launch files intended for deployment on the Clearpath Robotics\n\
+    \    Husky A100 and A200 robots.\n  "
+  'name': 'clearpath_husky'
+  'repo': 'clearpath-ros-pkg'
+- 'brief': 'ubc-ros-pkg'
+  'description': 'ubc-ros-pkg'
+  'name': 'ubc-ros-pkg'
+  'repo': 'ubc-ros-pkg'
+- 'brief': 'netft'
+  'description': 'netft'
+  'name': 'netft'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'WiFi drivers'
+  'description': "\n   This stack contains WiFi drivers\n  "
+  'name': 'wifi_drivers'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'odor_search'
+  'description': "\n  \n  \tThis stack contains various odor search algorithms, inclusing\
+    \ odor oriented exploration and odor source localization algorithms.\n  \n  "
+  'name': 'odor_search'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'turn_taking'
+  'description': 'turn_taking'
+  'name': 'turn_taking'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'Tools for use with URDF Models'
+  'description': 'This package contains a number of tools for making, viewing and
+    using URDF models.'
+  'name': 'robot_model_visualization'
+  'repo': 'robot_model_visualization'
+- 'brief': 'rtt_ros_comm'
+  'description': "\n\n    This stack contains all RTT typekits for the ros_comm messages\n\
+    \  \n  "
+  'name': 'rtt_ros_comm'
+  'repo': 'rtt_ros_comm'
+- 'brief': 'roboframenet'
+  'description': "\n    Stack of packages related to the RoboFrameNet project.\n  "
+  'name': 'roboframenet'
+  'repo': 'roboframenet'
+- 'brief': 'common_rosdeps'
+  'description': 'common_rosdeps provides commonly used rosdep system dependencies.'
+  'name': 'common_rosdeps'
+  'repo': 'common_rosdeps'
+- 'brief': 'starmac_vicon'
+  'description': "\n    Drivers for using the Vicon motion capture system for indoor\
+    \ tracking of a vehicle\n"
+  'name': 'starmac_vicon'
+  'repo': 'starmac-ros-pkg'
+- 'brief': 'drink_serving'
+  'description': 'drink_serving'
+  'name': 'drink_serving'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'kurt_apps'
+  'description': 'kurt_apps'
+  'name': 'kurt_apps'
+  'repo': 'uos-ros-pkg'
+- 'brief': 'imu_filter'
+  'description': 'imu_filter'
+  'name': 'imu_filter'
+  'repo': 'imu_filter'
+- 'brief': 'PR2 simulation components'
+  'description': "\n\n     PR2-specific simulation components. These include\n   \
+    \  plugins and launch scripts necessary for running PR2 in simulation.\n\n  "
+  'name': 'pr2_simulator'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'pr2_sbl_experimental'
+  'description': 'pr2_sbl_experimental'
+  'name': 'pr2_sbl_experimental'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'itasc_robots_objects'
+  'description': 'itasc_robots_objects'
+  'name': 'itasc_robots_objects'
+  'repo': 'itasc_robots_objects'
+- 'brief': 'sbpl_arm_planning'
+  'description': "Search Based Motion Planner for\n    Manipulation (PR2 Only)"
+  'name': 'sbpl_arm_planning'
+  'repo': 'sbpl_arm_planning'
+- 'brief': 'node_monitoring'
+  'description': 'node_monitoring'
+  'name': 'node_monitoring'
+  'repo': 'node_monitoring'
+- 'brief': 'pr2_rubiks_solver'
+  'description': 'PR2 Rubik''s cube solver'
+  'name': 'pr2_rubiks_solver'
+  'repo': 'pr2_rubiks_solver'
+- 'brief': 'tabletop_object_perception'
+  'description': "\n\n    One example of sensor data processing for manipulation\n\
+    \    tasks. Containts functionality for object segmentation, object\n    recognition\
+    \ and collision environment management for manipulation.\n\n  "
+  'name': 'tabletop_object_perception'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'drivers_experimental'
+  'description': 'Experimental or unsupported drivers. This stack is not intended
+    for release and packages within it should be used individually.'
+  'name': 'drivers_experimental'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'pr2_tabletop_manipulation_apps'
+  'description': "\n\n    Brings together manipulation and perception for complete\
+    \ task\n    execution using the PR2 robot. \n\n  "
+  'name': 'pr2_tabletop_manipulation_apps'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Libraries for reading/using motion capture data'
+  'description': 'Libraries for reading/using motion capture data'
+  'name': 'motion_capture'
+  'repo': 'wu-ros-pkg'
+- 'brief': 'Collection of hardware drivers.'
+  'description': "\n\n     A collection of hardware drivers in use at Bosch RTC.\n\
+    \n  "
+  'name': 'bosch_drivers'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'Common structures and algorithms for robotic navigation'
+  'description': "\n  \n    This stack aims to bring the common tools and algorithms\
+    \ needed to \n\tdevelop navigation algorithms, in particular slam. It does not\
+    \ focus on\n\tthe end-point solution, rather the tools needed to create a variety\
+    \ of\n\tend-point solutions.\n  \n  "
+  'name': 'ecl_navigation'
+  'repo': 'ecl_navigation'
+- 'brief': 'Point Cloud Library Addons'
+  'description': "\n    The <b>perception_pcl_addons</b> stack contains additions\
+    \ to the Point\n    Cloud Library (PCL) such as visualization tools, tutorials\
+    \ and example\n    code, and demos.\n  "
+  'name': 'perception_pcl_addons'
+  'repo': 'ros-pkg'
+- 'brief': 'Robotis Dynamixel motor drivers and ROS controllers'
+  'description': "\n        This stack contains packages that are used to interface\
+    \ with Robotis\n        Dynamixel line of servo motors. This stack was tested\
+    \ with and fully\n        supports AX-12, AX-18, RX-24, RX-28, MX-28, RX-64, EX-106\
+    \ models.\n    "
+  'name': 'dynamixel_motor'
+  'repo': 'dynamixel_motor'
+- 'brief': 'Simple ways of controlling 4, 5 and more DOF arms'
+  'description': ''
+  'name': 'simple_arms'
+  'repo': 'vanadium-ros-pkg'
+- 'brief': 'GPGPU support'
+  'description': "\n    Tools for using GPU computing technology in ROS nodes.\n  "
+  'name': 'gpgpu'
+  'repo': 'umd-ros-pkg'
+- 'brief': 'RCPRG_laser_drivers'
+  'description': 'RCPRG_laser_drivers'
+  'name': 'RCPRG_laser_drivers'
+  'repo': 'RCPRG_laser_drivers'
+- 'brief': 'Zeroconf api for ros frameworks'
+  'description': "\n  Convenient wrappers around platform-dependant implementations\
+    \ whose \n  purpose are both to expose a fairly standard sort of api as well \n\
+    \  as a ros api (topics and services) where practical.\n  \n  The only implementation\
+    \ it doesn't include is the android (will\n  eventually merge back in here if\
+    \ ubuntu starts officially including\n  adk packages).\n  "
+  'name': 'zeroconf_implementations'
+  'repo': 'zeroconf_implementations'
+- 'brief': 'turtlebot_arm'
+  'description': 'The turtlebot_arm package provides bringup, description, and utilities
+    for using the TurtleBot arm.'
+  'name': 'turtlebot_arm'
+  'repo': 'turtlebot_arm'
+- 'brief': 'documentation'
+  'description': 'Documentation tools, including rosdoc'
+  'name': 'documentation'
+  'repo': 'documentation'
+- 'brief': 'pr2_props_stack'
+  'description': 'pr2_props_stack'
+  'name': 'pr2_props_stack'
+  'repo': 'pr2_props_stack'
+- 'brief': 'robots'
+  'description': 'ROS interface code for various robots'
+  'name': 'uu-robots'
+  'repo': 'uuisrc-ros-pkg'
+- 'brief': 'PR2 mechanism'
+  'description': "\n    The <tt>pr2_mechanism</tt> stack contains the infrastructure\
+    \ to control the\n    PR2 robot in a hard realtime control loop. The main interface\
+    \ to\n    packages in this stack is through C++, but it is possible to\n    interact\
+    \ with controllers through a ROS API. While the\n    stack is currently aimed\
+    \ at controlling the PR2 robot, it should\n    work on most force-controlled robots.\
+    \ \n  "
+  'name': 'pr2_mechanism'
+  'repo': 'pr2_mechanism'
+- 'brief': 'bosch_registration'
+  'description': 'bosch_registration'
+  'name': 'bosch_registration'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'Utilities'
+  'description': 'Various utilities'
+  'name': 'uu-utils'
+  'repo': 'uuisrc-ros-pkg'
+- 'brief': 'vicon'
+  'description': 'Vicon motion tracking system interface stack'
+  'name': 'vicon'
+  'repo': 'uuisrc-ros-pkg'
+- 'brief': 'slam_karto'
+  'description': 'SLAM using KARTO from SRI International'
+  'name': 'slam_karto'
+  'repo': 'ros-pkg'
+- 'brief': 'hrl_arm_control'
+  'description': 'hrl_arm_control'
+  'name': 'hrl_arm_control'
+  'repo': 'gt-ros-pkg'
+- 'brief': 'The RAIL group''s NAO packages.'
+  'description': 'The nao_rail stack contains packages to control and query an Aldebaran
+    NAO. These packages can be used in conjunction with existing NAO stacks and packages
+    to add additional features.'
+  'name': 'nao_rail'
+  'repo': 'wpi-rail-ros-pkg'
+- 'brief': 'astromech-ros'
+  'description': "\n    astromech-ros is a stack of ROS interface functions for Astromech\n\
+    \    droid replicas (&quot;R2-D2s&quot;).\n\n    Astromech droids are basically\
+    \ differential-drive platforms with\n    specific, movie-used appendages. They\
+    \ usually have a turnable\n    dome. The full set of appendages are two &quot;utility\
+    \ arms&quot; in front,\n    a &quot;gripper arm&quot; and a &quot;cpu arm&quot;,\
+    \ a &quot;periscope&quot; and &quot;life form\n    scanner&quot; in the dome,\
+    \ and the ability to go from three-leg mode\n    (passive caster in front) to\
+    \ two-leg mode and back. Some builders\n    opt to have all of those, some only\
+    \ have the turnable dome. That\n    makes them a pretty standardized plaform which\
+    \ is scalable from a\n    fixed set of functions.\n\n    The usual purpose of\
+    \ these &quot;robots&quot; is display at conventions, so\n    most of them currently\
+    \ are remote-control only, but the first\n    forays into autonomous robotics\
+    \ have recently been started. My own\n    droid is (I believe) the first one to\
+    \ have working environment\n    sensors (ultrasound, infrared, camera, soon a\
+    \ Kinect), currently\n    used for collision avoidance.\n\n    To make things\
+    \ easier for other builders and also because of the\n    standardized-scalable\
+    \ nature of the platform, I've started work on\n    a ROS stack that allows control\
+    \ of Astromech platforms and\n    basically provides a standardized software interface\
+    \ to the\n    platform and all its appendages. Currently, this stack only\n  \
+    \  supports my droid, but we're actively working on getting more\n    droids supported.\n\
+    \n    There's an Astromech builders' club with a web home at\n    http://astromech.net\
+    \ and a couple hundred builders world-wide.\n\n    R2-D2, Star Wars etc. are trademarks\
+    \ by LucasFilm. All efforts in\n    astromech-ros and the R2 builders' club are\
+    \ strictly private and\n    not for profit. We respect LucasFilm's trademarks\
+    \ and IP and are\n    happy for the support we're getting from them.\n  "
+  'name': 'astromech-ros'
+  'repo': 'astromech-ros'
+- 'brief': 'PR2 robot description and PR2-specific messages'
+  'description': "\n    URDF description of the robot kinematics and dynamics, 3D\
+    \ models of robot components, information required for gazebo to simulate the\
+    \ PR2, and messages specific to the PR2 such as detailed information about its\
+    \ power board and fingertip pressure sensors.\n  "
+  'name': 'pr2_common'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'wg_robots_gazebo'
+  'description': "\n\n     This stack contains a variety of tests and demos launch\
+    \ scripts in\nsimulation.\n\n  "
+  'name': 'wg_robots_gazebo'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'android_sensors_driver'
+  'description': 'android_sensors_driver'
+  'name': 'android_sensors_driver'
+  'repo': 'android_sensors_driver'
+- 'brief': 'ROS Serial Client Library'
+  'description': "\n    <p>ROS Serial is a point-to-point version of ROS communications\
+    \ over serial, primarily for integrating low-cost microcontrollers (Arduino) into\
+    \ ROS. ROS serial consists of a general p2p  protocol, libraries for use with\
+    \ Arduino, and nodes for the PC/Tablet side (currently in both Python and Java).</p>\n\
+    \  "
+  'name': 'rosserial'
+  'repo': 'rosserial'
+- 'brief': 'ua_vision'
+  'description': "\n        Contains packages related to vision on UA robots, including\
+    \ saliency \n        tracking based on the Nick's Machine Perception Toolkit (NMPT).\n\
+    \    "
+  'name': 'ua_vision'
+  'repo': 'ua-ros-pkg'
+- 'brief': 'Zeroconf api for ros frameworks'
+  'description': "\n  Convenient wrapper around the jmdns implementation for zeroconf\n\
+    \  on android.\n  "
+  'name': 'zeroconf_android'
+  'repo': 'zeroconf_android'
+- 'brief': 'ROS stack for Stanford_WBC'
+  'description': "\n    This stack contains packages that make the Stanford Whole-Body\n\
+    \    Control framework available within ROS. In particular, the\n    wbc_core\
+    \ package is a thin wrapper around the core Stanford_WBC\n    library, and the\
+    \ wbc_pr2_ctrl package contains a controller plugin\n    and other utilities to\
+    \ run the whole-body controller on PR2\n    (simulated or real).\n  "
+  'name': 'whole_body_control'
+  'repo': 'whole_body_control'
+- 'brief': 'Stack for PR2 portrait demo'
+  'description': "\n    The portrait_bot stack enables the PR2 draw faces recognized\
+    \ in camera images.\n  "
+  'name': 'portrait_bot'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'Stack containing drivers to play/record sound.'
+  'description': "\n\n  This stack is deprecated. See the audio_common stack for audio\
+    \ related\n  packages.\n\n  "
+  'name': 'sound_drivers'
+  'repo': 'ros-pkg'
+- 'brief': 'libphidgets21'
+  'description': 'libphidgets21'
+  'name': 'libphidgets21'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'Various packages for humanoid (biped) navigation.'
+  'description': "\n        <p>This stack will contain packages for humanoid (biped)\
+    \ navigation, \n        developed at the <a href=\"http://hrl.informatik.uni-freiburg.de/\"\
+    >Humanoid Robots Lab</a> \n    at the Albert-Ludwigs-Universit\xE4t in Freiburg,\
+    \ Germany. The main code is currently \n    in the <a href=\"http://www.ros.org/wiki/footstep_planner\"\
+    >footstep_planner</a> package.\n   </p>\n   \n  "
+  'name': 'humanoid_navigation'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'uu-planners'
+  'description': 'uu-planners'
+  'name': 'uu-planners'
+  'repo': 'uuisrc-ros-pkg'
+- 'brief': 'Applications and demos for UA Robots'
+  'description': 'Applications and demos for UA Robots.'
+  'name': 'ua_apps'
+  'repo': 'ua-ros-pkg'
+- 'brief': 'pr2_plugs'
+  'description': 'The pr2_plugs stack provides the low level actions for autonomously
+    plugging the PR2 into a standard wall outlet.'
+  'name': 'pr2_plugs'
+  'repo': 'pr2_plugs'
+- 'brief': 'WG hardware testing tools'
+  'description': 'Hardware testing tools and utilities. Willow Garage use only.'
+  'name': 'wg_hardware_test'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'RCF4ROS'
+  'description': 'Contains a stack to teleoperate mobile robots over P2P networks'
+  'name': 'RCF4ROS'
+  'repo': 'roblab-whge-ros-pkg'
+- 'brief': 'roar_stack'
+  'description': 'ROS Opensource Audio Recognizer Stack'
+  'name': 'roar_stack'
+  'repo': 'roar_stack'
+- 'brief': 'Common libraries to work with ROS in Common Lisp'
+  'description': "\n    Common libraries to control ROS based robots. This stack contains\n\
+    \    an implementation of actionlib (client and server) in Common Lisp,\n    a\
+    \ transformation library and an implementation of tf in Common\n    Lisp.\n  "
+  'name': 'roslisp_common'
+  'repo': 'ros-pkg'
+- 'brief': 'cob_environments'
+  'description': 'cob_environments'
+  'name': 'cob_environments'
+  'repo': 'cob_environments'
+- 'brief': 'segway_rmp'
+  'description': 'segway_rmp'
+  'name': 'segway_rmp'
+  'repo': 'segway-rmp-ros-pkg'
+- 'brief': 'PR2 applications'
+  'description': 'Basic applications for the PR2 robot'
+  'name': 'pr2_apps'
+  'repo': 'pr2_apps'
+- 'brief': 'scan_tools'
+  'description': 'Scan Manipulation Tools'
+  'name': 'scan_tools'
+  'repo': 'scan_tools'
+- 'brief': 'hwu_osl_software'
+  'description': 'hwu_osl_software'
+  'name': 'hwu_osl_software'
+  'repo': 'hwu-osl-ros-pkg'
+- 'brief': 'ethzasl_mapping'
+  'description': "\n    3D mapping tools for robotic applications\n  "
+  'name': 'ethzasl_mapping'
+  'repo': 'ethzasl_mapping'
+- 'brief': 'Robot diagnostics and instrumentation tools.'
+  'description': 'Packages related to gathering, viewing, and analyzing diagnostics
+    data from robots.'
+  'name': 'diagnostics'
+  'repo': 'ros-pkg'
+- 'brief': 'provides visualization tools for the octomap_mapping stack'
+  'description': "octomap_visualization\n    provides visualization tools for the\
+    \ octomap_mapping stack, mainly the octovis viewer."
+  'name': 'octomap_visualization'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'rtt_ros_integration'
+  'description': "\n\n      This stack contains all software necessary to build systems\
+    \ using both Orocos and ROS infrastructures.\n      It depends on the <a href=\"\
+    http://www.orocos.org/toolchain\">Orocos Toolchain</a>.\n      The rtt_rosnode\
+    \ package allows easy communication between Orocos components and ROS nodes.\n\
+    \  \n  "
+  'name': 'rtt_ros_integration'
+  'repo': 'rtt_ros_integration'
+- 'brief': 'penn_lightweight_teleop'
+  'description': 'penn_lightweight_teleop'
+  'name': 'penn_lightweight_teleop'
+  'repo': 'penn_lightweight_teleop'
+- 'brief': 'vrmagic_camera'
+  'description': 'vrmagic_camera is a stack containing a driver for vrmagic multisensor
+    cameras. It is far from feature complete and works only on 32 bit linux systems
+    with usbfs support, as the manufacturer only supports these.'
+  'name': 'vrmagic_camera'
+  'repo': 'tu-darmstadt-ros-pkg'
+- 'brief': 'Resources enabling ros on windows'
+  'description': "\n    Setup and utilities for ros on windows.\n  "
+  'name': 'win_ros'
+  'repo': 'win_ros'
+- 'brief': 'Care-O-bot stack with high level command tools'
+  'description': "\n\n     The cob_command_tools stack provides tools, for operating\
+    \ Care-O-bot.\n\n  "
+  'name': 'cob_command_tools'
+  'repo': 'cob_command_tools'
+- 'brief': 'Tools for calibrating an entire robot. (Unstable)'
+  'description': "\n     Provides tools estimating robot kinematics and sensor locations.\
+    \ Also\n     provides helper libraries for capturing calibration datasets on a\
+    \ robot.\n     This stack is still very unstable. Expect many API changes.\n  "
+  'name': 'robot_calibration'
+  'repo': 'ros-pkg'
+- 'brief': 'CSIRO ASL ROS Utilities'
+  'description': "\n  ROS packages developed and maintained by the CSIRO Autonomous\
+    \ Systems Lab.\n  These are mainly drivers and their supporting libraries.\n  "
+  'name': 'csiro-asl-ros-pkg'
+  'repo': 'csiro-asl-ros-pkg'
+- 'brief': 'web_interface'
+  'description': 'This stack contains the packages and utilities required to run the
+    web user interface.'
+  'name': 'web_interface'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Drivers related to joysticks'
+  'description': "\nThis stack contains a ROS node to interface with joysticks, and\
+    \ drivers\nfor joysticks that are not well supported by a common Linux distribution.\n\
+    \  "
+  'name': 'joystick_drivers'
+  'repo': 'ros-pkg'
+- 'brief': 'brown_drivers'
+  'description': 'ROS drivers for various lowcost platforms '
+  'name': 'brown_drivers'
+  'repo': 'brown-ros-pkg'
+- 'brief': 'bosch_3rdparty'
+  'description': 'bosch_3rdparty'
+  'name': 'bosch_3rdparty'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'openni_unstable'
+  'description': 'openni_unstable'
+  'name': 'openni_usc'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'Pipeline for processing monocular and stereo images'
+  'description': "\n\n    image_pipeline fills the gap between getting raw images\
+    \ from a camera driver and higher-level vision processing.\n\n  "
+  'name': 'image_pipeline'
+  'repo': 'ros-pkg'
+- 'brief': 'bfl'
+  'description': 'bfl'
+  'name': 'bfl'
+  'repo': 'bfl'
+- 'brief': 'ROS Visualization Engine'
+  'description': "\n\n    Contains the ROS Visualization Engine (RVE), which is a\
+    \ set of libraries useful for developing 3D visualization tools.\n\n  "
+  'name': 'visualization_engine'
+  'repo': 'visualization_engine'
+- 'brief': 'visualprogramming'
+  'description': "\n  \tThe visual programming editor for ROS is an Eclipse plugin.\n\
+    \  \tIt allows the user to configure and connect nodes and can\n  \tbe used with\
+    \ any ROS packages. It is able to automatically analyze\n \tmessage description\
+    \ files and extracts its variables. The source\n \tcode of C++ and Python nodes\
+    \ is also analyzed to identify subscribers\n \tand publishers, but is not able\
+    \ to identify every variation. As a\n \tconsequence the toolkit generates a vp_package.xml\
+    \ file. This contains\n \tall information about the nodes, their topics, and the\
+    \ messages that are\n \tinside of the package. This file can be edited and users\
+    \ may add the additional\n \trequired information. \n \tTo use the source code,\
+    \ check it out and use an Eclipse version 3.6.1 to open it \n \t(ensure that the\
+    \ .project file is present). The Plugin Development Environment should \n \tbe\
+    \ installed: http://www.eclipse.org/pde/ as well as GEF: http://www.eclipse.org/gef/.\
+    \ \n \tIn case this is not enough, check if all of following bundles are present\
+    \ \n \t(for details, see the Manifest.MF file):\n\torg.eclipse.ui,\n \torg.eclipse.core.runtime,\n\
+    \ \torg.eclipse.jface.text,\n \torg.eclipse.core.resources,\n \torg.eclipse.ui.editors,\n\
+    \ \torg.eclipse.ui.ide,\n \torg.eclipse.gef;bundle-version=&quot;3.6.1&quot;,\n\
+    \ \torg.eclipse.core.filesystem;bundle-version=&quot;1.3.1&quot;  \n  "
+  'name': 'visualprogramming'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'ocr'
+  'description': "\n    A stack for optical character recognition (OCR) packages.\n\
+    \  "
+  'name': 'ocr'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'MikroKopter'
+  'description': 'MikroKopter stack for ROS'
+  'name': 'MikroKopter'
+  'repo': 'cyphy'
+- 'brief': 'slam_coreslam'
+  'description': 'Map Building with CoreSLAM'
+  'name': 'slam_coreslam'
+  'repo': 'albany-ros-pkg'
+- 'brief': 'Regression tests for WG hardware test systems'
+  'description': "\n    This stack contains regression tests for WG hardware test\
+    \ systems. These utilities can use simulated data (from gazebo) to test data analysis\
+    \ or logging functionality.   \n  "
+  'name': 'test_wg_hardware_test_systems'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'pr2_dremel'
+  'description': 'pr2_dremel'
+  'name': 'pr2_dremel'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'starmac_sensors'
+  'description': "\n  "
+  'name': 'starmac_sensors'
+  'repo': 'starmac-ros-pkg'
+- 'brief': 'photography'
+  'description': "\n    Robot photography\n  "
+  'name': 'photography'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Visualization Common'
+  'description': "\n    Provides a low-level shared stack for sharing code between\
+    \ various higher level visualization tools.\n  "
+  'name': 'visualization_common'
+  'repo': 'ros-pkg'
+- 'brief': 'Contains URDF descriptions of UA robots.'
+  'description': "\n  This stack contains URDF description files, 3D models, meshes,\
+    \ textures\n  and configuration parameters needed for Wubble Robot simulation.\n\
+    \  "
+  'name': 'ua_robots'
+  'repo': 'ua-ros-pkg'
+- 'brief': '3d_navigation - Navigation in complex environments with 3D collision checks.'
+  'description': "\n  This stack provides navigation capabilities in complex environments\
+    \ with 3D collision checks. This\n  allows for navigation in any robot configuration\
+    \ (e.g. with untucked arms) and for various mobile manipulation tasks. \n  "
+  'name': '3d_navigation'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Arm Navigation'
+  'description': "\n   This stack contains packages that permit collision-free arm\
+    \ navigation\n  "
+  'name': 'arm_navigation'
+  'repo': 'arm_navigation'
+- 'brief': 'kinect4skype'
+  'description': 'kinect4skype'
+  'name': 'kinect4skype'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'policy_learning'
+  'description': 'policy_learning'
+  'name': 'policy_learning'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'xacro'
+  'description': 'Xacro is an XML macro language. With xacro, you can construct shorter
+    and more readable XML files by using macros that expand to larger XML expressions.'
+  'name': 'xacro'
+  'repo': 'xacro'
+- 'brief': 'cart_pushing'
+  'description': 'cart_pushing'
+  'name': 'cart_pushing'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'cob_calibration'
+  'description': 'cob_calibration'
+  'name': 'cob_calibration'
+  'repo': 'cob_calibration'
+- 'brief': 'lse_sensor_network'
+  'description': "\n  \n  \tStack for the sensor networks developed at LSE. Currently\
+    \ holds the sensornet package, however support for a wireless sensor network should\
+    \ be added in the future.\n  \n  "
+  'name': 'lse_sensor_network'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'arm_navigation_tests_pr2'
+  'description': "\n\n     arm_navigation_tests_pr2\n\n  "
+  'name': 'pr2_arm_navigation_tests'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'common code for personal robots'
+  'description': "\n    This stack is deprecated.  All contents stacks depending on\
+    \ this stack \n    should be changed to use the new homes of this code.\n  "
+  'name': 'common'
+  'repo': 'common'
+- 'brief': 'OIT: Overhead Interaction Toolkit'
+  'description': "\n\n    Overhead Interaction Toolkit: This is a collection of packages\
+    \ designed to operate a robot with limited or no on-board sensing. Instead, an\
+    \ overhead camera is used to track the position of the robot, obstacles, and other\
+    \ people in a scene.\n\n  "
+  'name': 'OIT'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'icreate'
+  'description': "\n  Collection of tools for the iCreate.\n  "
+  'name': 'icreate'
+  'repo': 'cmr-ros-pkg'
+- 'brief': 'CCNY Computer Vision'
+  'description': 'CCNY Computer Vision Stack'
+  'name': 'ccny_vision'
+  'repo': 'ccny_vision'
+- 'brief': 'PDDL planning language'
+  'description': "\n    PDDL planning language for task planning.\n  "
+  'name': 'pddl'
+  'repo': 'jsk-ros-pkg'
+- 'brief': 'clearpath mobile platforms chameleon'
+  'description': "\n\n     This stack includes packages for use with the Clearpath\
+    \ Robotics Chameleon R200.\n\n  "
+  'name': 'clearpath_chameleon'
+  'repo': 'clearpath-ros-pkg'
+- 'brief': 'hector_worldmodel'
+  'description': 'hector_worldmodel'
+  'name': 'hector_worldmodel'
+  'repo': 'tu-darmstadt-ros-pkg'
+- 'brief': 'reem_robot'
+  'description': 'Scripts and configuration files to launch when bringing up REEM. '
+  'name': 'reem_robot'
+  'repo': 'reem_robot'
+- 'brief': 'Care-O-bot stack with common packages'
+  'description': "\n\n     The cob_common stack hosts common packages that are used\
+    \ within the Care-O-bot repository. E.g. utility packages or common message and\
+    \ service definitions etc. Also the urdf desciption of the robot is located in\
+    \ this stack.\n\n  "
+  'name': 'cob_common'
+  'repo': 'cob_common'
+- 'brief': 'Navigation utilities used in the ILS Social Robotics Lab'
+  'description': "\n    This stack contains navigation-related code developed in the\
+    \ ILS Social Robotics Lab, at the University of Albany, State University of New\
+    \ York. \n  "
+  'name': 'albany_nav'
+  'repo': 'albany-ros-pkg'
+- 'brief': 'Stack for PR2 imitiation from teleop'
+  'description': "\n    Thei pr2_teleop_imitation stack enables the PR2 to learn from\
+    \ user demonstrated trajectories.\n  "
+  'name': 'pr2_teleop_imitation'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'lse_communication'
+  'description': "\n  \n  \tCommunication stack holding some useful tools for serial\
+    \ port communication, CerealPort, as well as a package for communication between\
+    \ robots, WifiComm.\n  \n  "
+  'name': 'lse_communication'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'vslam'
+  'description': 'Visual SLAM with sparse bundle adjustment'
+  'name': 'vslam'
+  'repo': 'ros-pkg'
+- 'brief': 'ias_common'
+  'description': 'ias_common'
+  'name': 'ias_common'
+  'repo': 'ias_common'
+- 'brief': 'useful code for robotics development'
+  'description': "\n    Nodes and libraries useful for robotics development.\n  "
+  'name': 'wu_utils'
+  'repo': 'wu-ros-pkg'
+- 'brief': 'roomba_robot'
+  'description': "\n  \n  \tiRobot Roomba robot stack.\n  \n  "
+  'name': 'roomba_robot'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'soem'
+  'description': 'soem'
+  'name': 'soem'
+  'repo': 'soem'
+- 'brief': 'Contains packages for communicating, controlling, simulating, or otherwise
+    concerning chains of position-controlled actuators (i.e. rc servos)'
+  'description': "\n  \n  <p>\n  This stack contains packages communicating, controlling,\
+    \ simulating, or otherwise concerning chains of position-controlled \n  actuators\
+    \ (i.e. rc servos).\n  </p>\n  \n  "
+  'name': 'actuator_array'
+  'repo': 'gt-ros-pkg'
+- 'brief': 'ros_pandora_platform_specific'
+  'description': 'ros_pandora_platform_specific'
+  'name': 'ros_pandora_platform_specific'
+  'repo': 'pandora-auth-ros-pkg'
+- 'brief': 'Common code for working with images'
+  'description': "\n    Common code for working with images in ROS.\n  "
+  'name': 'image_common'
+  'repo': 'ros-pkg'
+- 'brief': 'iRobot Create'
+  'description': 'iRobot Create drivers and configuration'
+  'name': 'create_robot'
+  'repo': 'ros-pkg'
+- 'brief': 'Care-O-bot stack with navigation packages'
+  'description': "\n\n     The cob_navigation stack provides different navigation\
+    \ packages for Care-O-bot.\n\n  "
+  'name': 'cob_navigation'
+  'repo': 'cob_navigation'
+- 'brief': 'Scan3D'
+  'description': 'Creates 3D scans with mobile robots, and provides the possibility
+    to analyse the scans'
+  'name': 'Scan3D'
+  'repo': 'roblab-whge-ros-pkg'
+- 'brief': 'reem_teleop'
+  'description': "\n    Motion retargeting packages for teleoperating REEM.\n  "
+  'name': 'reem_teleop'
+  'repo': 'reem_teleop'
+- 'brief': 'Care-O-bot stack with external dependencies'
+  'description': "\n\n     The cob_extern stack contains third party libraries needed\
+    \ for operating Care-O-bot. The packages are downloaded from the manufactorers\
+    \ website and not changed in any way.\n\n  "
+  'name': 'cob_extern'
+  'repo': 'cob_extern'
+- 'brief': 'xbee'
+  'description': 'xbee'
+  'name': 'xbee'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'panda3d game engine'
+  'description': "\n    Support for Panda3D game engine\n  "
+  'name': 'panda3d'
+  'repo': 'wu-ros-pkg'
+- 'brief': 'orocos_controllers'
+  'description': 'This stack contain packeges for building real-time controllers with
+    orocos'
+  'name': 'orocos_controllers'
+  'repo': 'orocos_controllers'
+- 'brief': 'common messages'
+  'description': "\n    common_msgs contains messages that are widely used by other\
+    \ ROS packages.\nThese includes messages for \nactions (<a href=\"http://ros.org/wiki/actionlib_msgs\"\
+    >actionlib_msgs</a>), \ndiagnostics (<a href=\"http://ros.org/wiki/diagnostic_msgs\"\
+    >diagnostic_msgs</a>), \ngeometric primitives (<a href=\"http://ros.org/wiki/geometry_msgs\"\
+    >geometry_msgs</a>), \nrobot navigation (<a href=\"http://ros.org/wiki/nav_msgs\"\
+    >nav_msgs</a>),\nand common sensors (<a href=\"http://ros.org/wiki/sensor_msgs\"\
+    >sensor_msgs</a>), such as laser range finders, cameras, point clouds.\n  "
+  'name': 'common_msgs'
+  'repo': 'ros-pkg'
+- 'brief': 'hrl_behaviors'
+  'description': " \n        Collection of encapsulated behaviors and perceptual services\
+    \ along with \n        architectures and interfaces which employ them.  Most behaviors\
+    \ are designed\n        for exclusive use with the PR2 but some of the perception\
+    \ packages do not require\n        the actual robot.\n  "
+  'name': 'hrl_behaviors'
+  'repo': 'gt-ros-pkg'
+- 'brief': 'lse experiments'
+  'description': "\n  \n  \tThe purpose of this stack is to hold all the relevant\
+    \ experiments produced inside the LSE (ISR University of Coimbra). ROS code developed\
+    \ for papers, demos, etc should be placed here. Everything should be documented\
+    \ in such a way that reproduction of results is possible.\n  \n  "
+  'name': 'lse_experiments'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'ihr_demos'
+  'description': 'I Heart Robotics ROS Demos'
+  'name': 'ihr_demos'
+  'repo': 'iheart-ros-pkg'
+- 'brief': 'Hardware drivers, controllers, and GUIs used in the ILS Social Robotics
+    Lab'
+  'description': "\n    This stack contains a configuration and control code for a\
+    \ number of robots developed in the ILS Social Robotics Lab, at the University\
+    \ of Albany, State University of New York. \n  "
+  'name': 'albany_robots'
+  'repo': 'albany-ros-pkg'
+- 'brief': 'Embedded control libraries wrapping core platform functionality'
+  'description': "\n  <p>A set of tools and interfaces extending the capabilities\
+    \ of \n  c++ to provide a lightweight, consistent interface with a focus for\n\
+    \  control programming.\n  </p>\n  "
+  'name': 'ecl_core'
+  'repo': 'ecl_core'
+- 'brief': 'Gazebo Simulator'
+  'description': "\n    Wrappers, tools and additional API's for using ROS with the\
+    \ <a href=\"http://ros.org/wiki/gazebo\">Gazebo</a> simulator.\n  "
+  'name': 'simulator_gazebo'
+  'repo': 'ros-pkg'
+- 'brief': 'android_core'
+  'description': 'android_core'
+  'name': 'android_core'
+  'repo': 'android_core'
+- 'brief': 'ros_experimental'
+  'description': "\n    Experimental packages for ROS core system development.\n  "
+  'name': 'ros_experimental'
+  'repo': 'ros_experimental'
+- 'brief': 'elektron_gui'
+  'description': 'Some graphical tools for Elektron mobile robot.'
+  'name': 'elektron_gui'
+  'repo': 'elektron_gui'
+- 'brief': 'schunk_robots'
+  'description': 'schunk_robots'
+  'name': 'schunk_robots'
+  'repo': 'schunk_robots'
+- 'brief': 'camera_drivers_experimental'
+  'description': 'camera_drivers_experimental'
+  'name': 'camera_drivers_experimental'
+  'repo': 'ros-pkg'
+- 'brief': 'The Cognitive Environment'
+  'description': "\n  The VMI Cognitive Environment Stack\n  \n  "
+  'name': 'vmi_cognitive_environment'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'pr2_robot'
+  'description': "\n\n  This stack collects PR2-specific components that are used\
+    \ in bringing up\n  a robot.\n\n  "
+  'name': 'pr2_robot'
+  'repo': 'pr2_robot'
+- 'brief': 'uos-slam'
+  'description': 'uos-slam'
+  'name': 'uos-slam'
+  'repo': 'uos-ros-pkg'
+- 'brief': 'geographic_info'
+  'description': 'Geographic information'
+  'name': 'geographic_info'
+  'repo': 'geographic_info'
+- 'brief': 'Map Building with Gmapping'
+  'description': "\n\n     slam_gmapping contains the gmapping package, which provides\
+    \ SLAM capabilities. GMapping is a Creative-Commons-licensed open source package\
+    \ provided by OpenSlam.\n\n  "
+  'name': 'slam_gmapping'
+  'repo': 'ros-pkg'
+- 'brief': 'camera_pose_estimation'
+  'description': "\n\n    camera_pose_estimation: this stack gathers all our package\
+    \ to do 3D pose estimation of objects, marker-based and markerless.\n\n  "
+  'name': 'camera_pose_estimation'
+  'repo': 'camera_pose_estimation'
+- 'brief': 'Packages for collecting and interfacing with the dataset of people in
+    indoor environments.'
+  'description': 'people_dataset'
+  'name': 'people_dataset'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'wubble_world'
+  'description': 'wubble_world'
+  'name': 'wubble_world'
+  'repo': 'ua-ros-pkg'
+- 'brief': 'starmac_testing'
+  'description': "\n  Stack for testing launch files, etc. May have onerous dependencies\
+    \ but that's\n  okay, the idea is to have the tests and their dependencies here\
+    \ rather than putting\n  tests in individual stacks and potentially adding extraneous\
+    \ dependencies to those\n  stacks just so their tests will work. E.g. when testing\
+    \ vicon, might also want\n  to run estimator, but in general vicon_mocap shouldn't\
+    \ depend on flyer_est.\n  "
+  'name': 'starmac_testing'
+  'repo': 'starmac-ros-pkg'
+- 'brief': 'mrpt_common'
+  'description': 'mrpt_common'
+  'name': 'mrpt_common'
+  'repo': 'mrpt-ros-pkg'
+- 'brief': 'bosch_proximity_sensor_applications'
+  'description': 'bosch_proximity_sensor_applications'
+  'name': 'bosch_proximity_sensor_applications'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'rosserial_android'
+  'description': "\n  rosserial_android stack allows the Android adk to directly publish\
+    \ ROS\n  messages through an Android device.  The ADK runs a modified \n  rosserial_arduino\
+    \ firmware.  In this stack there is a Android app/library\n   and  ADK demo firmware.\
+    \  \n  "
+  'name': 'rosserial_android'
+  'repo': 'rosserial_android'
+- 'brief': 'sql_database'
+  'description': "\n    Provides an easy way to use SQL databases from the ROS environment.\n\
+    \  "
+  'name': 'sql_database'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'ais_bonn_drivers'
+  'description': 'ais_bonn_drivers'
+  'name': 'ais_bonn_drivers'
+  'repo': 'ais-bonn-ros-pkg'
+- 'brief': 'Care-O-bot stack with simulation packages'
+  'description': "\n\n     The cob_simulation stack includes packages to work with\
+    \ Care-O-bot within simulation environments, e.g. gazebo.\n\n  "
+  'name': 'cob_simulation'
+  'repo': 'cob_simulation'
+- 'brief': 'A 2D navigation application for the PR2 robot platform.'
+  'description': "\n    The 2D navigation application for the PR2 robot\n  "
+  'name': '2dnav_pr2_app'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'pr2_object_manipulation'
+  'description': "\n    Contains PR2-specific implementations of some of the generic\n\
+    \    functionality needed for pickup and place tasks. \n  "
+  'name': 'pr2_object_manipulation'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'pi_vision'
+  'description': "\n  A collection of vision packages created for the Pi Robot Project\
+    \ at <a href=\"http://www.pirobot.org\">http://www.pirobot.org</a>.\n  "
+  'name': 'pi_vision'
+  'repo': 'pi-robot-ros-pkg'
+- 'brief': 'calibration_experimental'
+  'description': "\n\n     calibration_experimental\n\n  "
+  'name': 'calibration_experimental'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Point Cloud Perception'
+  'description': "\n     The point_cloud_perception stack contains algorithms and\
+    \ tools that deal with 3D\n     point cloud data from a variety of different sensing\
+    \ devices.\n   "
+  'name': 'point_cloud_perception'
+  'repo': 'ros-pkg'
+- 'brief': 'mrpt_hwdrivers'
+  'description': 'mrpt_hwdrivers'
+  'name': 'mrpt_hwdrivers'
+  'repo': 'mrpt-ros-pkg'
+- 'brief': 'Tools for use with URDF Models'
+  'description': 'This package contains a number of tools for making, viewing and
+    using URDF models.'
+  'name': 'robot_model_tutorials'
+  'repo': 'robot_model_tutorials'
+- 'brief': 'cram_highlevel'
+  'description': 'cram_highlevel'
+  'name': 'cram_highlevel'
+  'repo': 'cram_highlevel'
+- 'brief': 'ros_release'
+  'description': "\n    <p>\n      This stack contains tools for releasing and installing\
+    \ ROS-packaged software through various channels including:\n    <ul>\n      <li>rosinstall</li>\n\
+    \      <li>Debian toolchains</li>\n      <li>Hudson continuous-integration infrastructure\
+    \ for releasing</li>\n    </ul>\n    </p>\n\n  "
+  'name': 'ros_release'
+  'repo': 'ros_release'
+- 'brief': 'AscTec Quadrotor drivers'
+  'description': 'Driver stack for AscTec Quadrotors including the Pelican and Hummingbird'
+  'name': 'asctec_drivers'
+  'repo': 'asctec_drivers'
+- 'brief': 'Navigation applications for the Wubble robot'
+  'description': "\n        This stack holds a collection of navigation applications\
+    \ that can be run on the Wubble robot.\n    "
+  'name': 'wubble_navigation_apps'
+  'repo': 'ua-ros-pkg'
+- 'brief': 'lse_battery_drivers'
+  'description': 'lse_battery_drivers'
+  'name': 'lse_battery_drivers'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'otl_ni'
+  'description': 'otl_ni'
+  'name': 'otl_ni'
+  'repo': 'otl-ros-pkg'
+- 'brief': 'Tools for ROS use from realtime systems'
+  'description': "\n    Contains tools for using ROS from within realtime threads,\
+    \ mainly the rosrt package.\n  "
+  'name': 'ros_realtime'
+  'repo': 'ros_realtime'
+- 'brief': 'ccny_drivers'
+  'description': 'CCNY drivers for the MatrixVision BlueFox camera'
+  'name': 'ccny_drivers'
+  'repo': 'ccny_drivers'
+- 'brief': 'graph_mapping'
+  'description': 'graph_mapping'
+  'name': 'graph_mapping'
+  'repo': 'ros-pkg'
+- 'brief': 'Care-O-bot stack with driver packages'
+  'description': "\n\n     The cob_driver stack includes packages that provide access\
+    \ to the Care-O-bot hardware through ROS messages, services and actions. E.g.\
+    \ for mobile base, arm, camera sensors, laser scanners, etc...\n\n  "
+  'name': 'cob_driver'
+  'repo': 'cob_driver'
+- 'brief': 'hrl_hardware_drivers'
+  'description': " Python code to use\n      different hardware components like Robotis\
+    \ servos, Phantom\n      Omnis, Segway Omni, Hokuyos etc."
+  'name': 'hrl_hardware_drivers'
+  'repo': 'gt-ros-pkg'
+- 'brief': 'vmi_applications'
+  'description': 'vmi_applications'
+  'name': 'sweetgazebo'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'BOSCH manipulation utilities'
+  'description': 'Contains helpers to control the PR2 robot'
+  'name': 'bosch_manipulation_utils'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'The Virtual Office'
+  'description': "\n  The Virtual Office at VMI, the simulation files for rviz and\
+    \ gazebo.\n  \n  "
+  'name': 'vmi_virtual_office'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'rtcus_cognitive'
+  'description': 'rtcus_cognitive'
+  'name': 'rtcus_cognitive'
+  'repo': 'rtc-us-ros-pkg-trunk'
+- 'brief': 'Gazebo plugins for getting image stream into Gazebo simulations.'
+  'description': "\n  \tsimvid contains different Gazebo plugins for displaying dynamic\
+    \ images (e. g. dynamic texture for monitors) in a Gazebo simulation.\n  "
+  'name': 'textvid'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'surveillance'
+  'description': 'surveillance'
+  'name': 'surveillance'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'topological_navigation'
+  'description': 'Code pertaining to navigation using a global topological graph together
+    with local metric information'
+  'name': 'topological_navigation'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'jsk_common'
+  'description': 'jsk_common'
+  'name': 'jsk_common'
+  'repo': 'jsk-ros-pkg'
+- 'brief': 'ros_applications'
+  'description': 'ros_applications'
+  'name': 'ros_applications'
+  'repo': 'ros_applications'
+- 'brief': 'lse_roomba_toolbox'
+  'description': "\n  \n  Useful tools for the Roomba robots used at the LSE including\
+    \ popular tf setups, Stage world files and 2D navigation parameters and example\
+    \ launch files for the real and simulated robots.\n  \n  "
+  'name': 'lse_roomba_toolbox'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'lse anemometer drivers'
+  'description': "\n  \tThis stack contains drivers for anemometers. Currently the\
+    \ only driver available is for the Windsonic, an ultrasonic wind sensor.\n  "
+  'name': 'lse_anemometer_drivers'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'ART autonomous vehicle support'
+  'description': "\n\n    ROS support for the Austin Robot Technology autonomous vehicle.\n\
+    \n  "
+  'name': 'art_vehicle'
+  'repo': 'utexas-art-ros-pkg'
+- 'brief': 'Neato XV-11 drivers and configuration files.'
+  'description': "\n    This stack contains drivers for the Neato XV-11 robot. It\
+    \ also contains sample configuration files for running the Navigation stack on\
+    \ an XV-11.\n  "
+  'name': 'neato_robot'
+  'repo': 'albany-ros-pkg'
+- 'brief': 'common_tutorials'
+  'description': 'common_tutorials'
+  'name': 'common_tutorials'
+  'repo': 'ros-pkg'
+- 'brief': 'pr2_rfid'
+  'description': 'This stack contains code for robot behaviors and radio frequency
+    perception techniques that enable a PR2 (modified with articulated patch antennas)
+    to efficiently discover, locate, and interact with long-range (UHF) RFID tags
+    applied to locations, objects, and people of interest.  Sample capabilities include:
+    estimating the bearing toward a tag, RFID servoing, and RFID search.  These techniques
+    form the foundation of Travis Deyle''s PhD thesis; we also demonstrated sample
+    applications such as medication delivery, sensor fusion, and RFID search in home
+    environments.'
+  'name': 'pr2_rfid'
+  'repo': 'gt-ros-pkg'
+- 'brief': 'ros_comm'
+  'description': 'ROS communications-related packages, including core client libraries
+    (roscpp, rospy, roslisp) and graph introspection tools (rostopic, rosnode, rosservice,
+    rosparam).'
+  'name': 'ros_comm'
+  'repo': 'ros_comm'
+- 'brief': 'shadow_robot_ethercat'
+  'description': "\n    This stack contains the drivers and the controllers for Shadow\
+    \ Robot's EtherCAT Hand.\n  "
+  'name': 'shadow_robot_etherCAT'
+  'repo': 'shadow_robot_etherCAT'
+- 'brief': 'veltrobot'
+  'description': "\n  Contains packages to control the movement of a humanoid robot,\
+    \ abstract sensor data, video input, teleoperation, and launch/configuration files.\n\
+    \  "
+  'name': 'veltrobot'
+  'repo': 'veltrop-ros-pkg'
+- 'brief': 'clearpath_turtlebot'
+  'description': "\n    The clearpath_turtlebot stack provides a central repository\
+    \ of software\n    and launch files intended for deployment on the Turtlebot.\n\
+    \  "
+  'name': 'clearpath_turtlebot'
+  'repo': 'clearpath-ros-pkg'
+- 'brief': 'IEEE 1394 Digital Camera driver'
+  'description': "\n\n    This is a ROS driver for devices supporting the IEEE 1394\
+    \ Digital\n    Camera (IIDC) protocol. It supports the ROS image_pipeline, using\n\
+    \    libdc1394 for device access.\n\n  "
+  'name': 'camera1394'
+  'repo': 'camera1394'
+- 'brief': 'ccny_experimental'
+  'description': 'ccny_experimental'
+  'name': 'ccny_experimental'
+  'repo': 'ccny_experimental'
+- 'brief': 'dynamicreconfig'
+  'description': 'dynamicreconfig'
+  'name': 'dynamic_reconfigure'
+  'repo': 'dynamic_reconfigure'
+- 'brief': 'Visualization Tutorials'
+  'description': 'Tutorials related to the visualization stack such as Marker tutorials'
+  'name': 'visualization_tutorials'
+  'repo': 'ros-pkg'
+- 'brief': 'laser_pipeline'
+  'description': "\n\n     Libraries from processing laser data, including converting\
+    \ laser data into 3D representations.\n\n  "
+  'name': 'laser_pipeline'
+  'repo': 'ros-pkg'
+- 'brief': 'Stack for the OctoMap 3D mapping library'
+  'description': "\n    The <a href=\"http://octomap.sourceforge.net/\">OctoMap library</a>\
+    \ implements a 3D occupancy grid mapping approach,\nproviding data structures\
+    \ and mapping algorithms. The map implementation is\nbased on an octree. This\
+    \ stack contains the actual OctoMap package and additional code for ROS integration.\n\
+    \  "
+  'name': 'octomap_mapping'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'rlrobot'
+  'description': "\n\n     rlrobot\n\n  "
+  'name': 'rlrobot'
+  'repo': 'brown-experimental'
+- 'brief': 'cob_robots'
+  'description': 'cob_robots'
+  'name': 'cob_robots'
+  'repo': 'cob_robots'
+- 'brief': 'shadow_robot'
+  'description': "\n\n  This stack regroups the different ros interfaces developped\
+    \ for Shadow Robot's\n  Hardware. It provides an interface to both simulated and\
+    \ real hardware.\n\n  "
+  'name': 'shadow_robot'
+  'repo': 'shadow_robot'
+- 'brief': 'web_apps_core'
+  'description': 'This stack contains core web apps that are shipped with a PR2.'
+  'name': 'pr2_web_apps'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'clearpath_common'
+  'description': "\n    The clearpath_common stack provides a central repository of\
+    \ software\n    tools used across a variety of the Clearpath Robotics platforms.\n\
+    \  "
+  'name': 'clearpath_common'
+  'repo': 'clearpath-ros-pkg'
+- 'brief': 'trajectory_filters'
+  'description': "\n  This stack contains a set of filters to work with joint trajectories.\
+    \ It also contains a trajectory filter server which is a ROS node that exposes\
+    \ a ROS service interface to a chain of filters. \n  "
+  'name': 'trajectory_filters'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Packages for natural language processing '
+  'description': "\n    When migration is complete, this stack will contain packages\
+    \ for speech\n    recognition, parsing, text-to-speech, and other NL-related tasks.\n\
+    \    "
+  'name': 'ua_language'
+  'repo': 'ua-ros-pkg'
+- 'brief': 'brown_perception'
+  'description': 'Infrastructure for perception'
+  'name': 'brown_perception'
+  'repo': 'brown-ros-pkg'
+- 'brief': 'navigation_tutorials'
+  'description': 'navigation_tutorials'
+  'name': 'navigation_tutorials'
+  'repo': 'navigation_tutorials'
+- 'brief': 'pr2_arm_navigation'
+  'description': "\n    This stack contains the launch files for arm navigation with\
+    \ the PR2 robot arms. \n  "
+  'name': 'pr2_arm_navigation'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'knowrob'
+  'description': "\n\n    KnowRob is a knowledge processing framework developed in\
+    \ the IAS group\n    at the Technische Universitaet Muenchen, Germany.\n\n   \
+    \ It provides tools for knowledge acquisition, representation and reasoning\n\
+    \    that are tailored to the demands in mobile robotics.\n\n  "
+  'name': 'knowrob'
+  'repo': 'knowrob'
+- 'brief': 'ipswitch4ros'
+  'description': 'ipswitch4ros'
+  'name': 'ipswitch4ros'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'scout_robot'
+  'description': "\n  \n  \tNomad Scout robot stack.\n  \t\n  "
+  'name': 'scout_robot'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'A stack for interacting with Phidgets'
+  'description': "\n    This stack contains the C API for Phidgets as well as a C++\n\
+    \    wrapper and various ROS nodes utilizing the C++ Wrapper.\n  "
+  'name': 'phidgets'
+  'repo': 'foote-phidget'
+- 'brief': 'humanoid'
+  'description': 'humanoid'
+  'name': 'humanoid'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'capabilities'
+  'description': 'capabilities'
+  'name': 'capabilities'
+  'repo': 'vanadium-ros-pkg'
+- 'brief': 'door_planning'
+  'description': 'door_planning'
+  'name': 'sbpl_door_planning'
+  'repo': 'sbpl_door_planning'
+- 'brief': '3d_navigation - Navigation in complex environments with 3D collision checks.'
+  'description': "\n  This stack provides navigation capabilities in complex environments\
+    \ with 3D collision checks. This\n  allows for navigation in any robot configuration\
+    \ (e.g. with untucked arms) and for various mobile manipulation tasks. \n  "
+  'name': '3d_navigation_icra12'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'proxy_tools'
+  'description': 'Tools for moving data between nodes while conserving bandwidth or
+    avoiding network blockages'
+  'name': 'proxy_tools'
+  'repo': 'umd-ros-pkg'
+- 'brief': 'A stack of UU kinect bits.'
+  'description': 'Code that uses the Microsoft Kinect RGB-D Camera.'
+  'name': 'uu-kinect'
+  'repo': 'uuisrc-ros-pkg'
+- 'brief': 'Nodes for controlling HomeEasy EU equipment.'
+  'description': "\n    This stack holds various nodes for controlling the home automation\
+    \ equipment from <a href=\"http://www.homeeasy.eu/\">HomeEasy</a>.<br/>\n    Currently\
+    \ we are only working on the code for the <strong>EU devices</strong> of HomeEasy,\
+    \ so most UK devices won't be compatible.\n  "
+  'name': 'roseasy'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'otl_util'
+  'description': 'otl_util'
+  'name': 'otl_util'
+  'repo': 'otl-ros-pkg'
+- 'brief': 'Common configuration options for planar navigation applications on the
+    Wubble robot.'
+  'description': "\n        The wubble_navigation stack holds common configuration\
+    \ options for running the\n        <a href=\"http://www.ros.org/wiki/navigation\"\
+    >navigation</a> stack on a Wubble robot.\n    "
+  'name': 'wubble_navigation'
+  'repo': 'ua-ros-pkg'
+- 'brief': 'starmac_common'
+  'description': "\n  starmac_common contains general-purpose libraries, scripts,\
+    \ etc. These should be general\n  in the sense that they might be found in ros-pkg\
+    \ (and in some cases maybe we'll propose\n  including them there).\n  "
+  'name': 'starmac_common'
+  'repo': 'starmac-ros-pkg'
+- 'brief': 'clearpath_kingfisher'
+  'description': "\n    The clearpath_kingfisher stack provides a central repository\
+    \ of software\n    and launch files intended for deployment on the Clearpath Robotics\n\
+    \    Kingfisher M100 unmanned surface vessel.\n  "
+  'name': 'clearpath_kingfisher'
+  'repo': 'clearpath-ros-pkg'
+- 'brief': 'physics_ode'
+  'description': "\n\n     Open Dynamics Physics Engines for Simulation and Planning\
+    \ (Collision Detection).\n\n  "
+  'name': 'physics_ode'
+  'repo': 'ros-pkg'
+- 'brief': 'sr_object_manipulation'
+  'description': 'sr_object_manipulation'
+  'name': 'sr_object_manipulation'
+  'repo': 'sr_object_manipulation'
+- 'brief': 'object_recognition experimental'
+  'description': "\n     The object_recognition stack contains algorithms and tools\
+    \ relevant to\n     object recognition from visual data.\n   "
+  'name': 'object_recognition_experimental'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'hector_slam'
+  'description': 'hector_slam contains ROS packages related to performing SLAM in
+    unstructed environments like those encountered in the Urban Search and Rescue
+    (USAR) scenarios of the RoboCup Rescue competition'
+  'name': 'hector_slam'
+  'repo': 'tu-darmstadt-ros-pkg'
+- 'brief': 'executive_smach'
+  'description': "\n    The executive_smach stack contains the SMACH library, together\n\
+    \    with tools for introspection and a ROS integration package.\n  "
+  'name': 'executive_smach'
+  'repo': 'executive_smach'
+- 'brief': 'web bags'
+  'description': "\n    Processing bag files and viewing them on the web.\n  "
+  'name': 'web_bags'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'ROS Packages from the UT AustinVilla Robot Soccer Team'
+  'description': "\n    This stack keeps all the packages from UT AustinVilla in the\
+    \ efforts towards the RoboCup Competition. Currently it contains a color table\
+    \ generation tool, along with a ground truth detection system using the Kinect\
+    \ that can be used for Nao robot. \n  "
+  'name': 'austinvilla'
+  'repo': 'utexas-ros-pkg'
+- 'brief': 'Velodyne HDL-64E 3D LIDAR support'
+  'description': "\n\n    ROS support for the Velodyne HDL-64E and HDL-64E S2 3D LIDARs.\n\
+    \n  "
+  'name': 'velodyne'
+  'repo': 'utexas-art-ros-pkg'
+- 'brief': 'Efficient computation and updating of Euclidean distance maps and Euclidean
+    Voronoi diagrams on 2D grid maps.'
+  'description': "\n\n<p>\nThis stack provides software to compute and update Euclidean\
+    \ distance maps (DM) and Euclidean Voronoi diagrams (GVD) on 2D grid maps.\n</p>\n\
+    \n<p>\nThe program is initialized with a binary occupancy grid map and computes\
+    \ the corresponding DM and GVD. When provided with points that mark newly occupied\
+    \ or freed cells, the DM and GVD can be updated efficiently to reflect the changes\
+    \ in the environment.\n</p>\n\n<p>\nDetails on the algorithms can be found in\
+    \ the corresponding paper. Please cite the paper if you use it for scientific\
+    \ work:<br/>\nB. Lau, C. Sprunk and W. Burgard, Improved Updating of Euclidean\
+    \ Distance Maps and Voronoi Diagrams, IEEE Intl. Conf. on Intelligent Robots and\
+    \ Systems (IROS), Taipei, Taiwan, 2010.<br/>\nSee also <a href=\"http://www.informatik.uni-freiburg.de/~lau/dynamicvoronoi\"\
+    >http://www.informatik.uni-freiburg.de/~lau/dynamicvoronoi</a>\n</p>\n\n  "
+  'name': 'dynamic_voronoi'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'The ROS OpenNI project'
+  'description': "\n  \n    ROS OpenNI is an open source project focused on the integration\
+    \ of the\n    PrimeSense sensors with ROS. \n  \n  "
+  'name': 'openni_kinect'
+  'repo': 'openni_kinect'
+- 'brief': 'trex'
+  'description': "\n\n     trex\n\n  "
+  'name': 'executive_trex'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'manipulator_state_estimation'
+  'description': 'manipulator_state_estimation'
+  'name': 'manipulator_state_estimation'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'tidyup_interface'
+  'description': 'This stack contains interfacing packages for the TidyUp project.'
+  'name': 'tidyup_interface'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'ethzasl_drivers'
+  'description': 'ROS drivers made by ETHZ/ASL'
+  'name': 'ethzasl_drivers'
+  'repo': 'ethzasl_drivers'
+- 'brief': 'arm_navigation'
+  'description': "\n    The arm navigation stack contains the action/behavior used\
+    \ to execute collision free motion planning and control for a robot arm manipulator.\
+    \ Included in this stack are the messages required for an action interface that\
+    \ can be used to specify and abort goals for the move_arm action. An implementation\
+    \ for arm navigation on the PR2 robot can be found in the pr2_arm_navigation stack.\
+    \ \n  "
+  'name': 'arm_navigation_experimental'
+  'repo': 'arm_navigation_experimental'
+- 'brief': 'clearpath mobile platforms'
+  'description': "\n     This stack is defunct and has been supplanted by clearpath_common\
+    \ and clearpath_husky.\n  "
+  'name': 'clearpath_platform'
+  'repo': 'clearpath-ros-pkg'
+- 'brief': 'people'
+  'description': 'The people stack holds algorithms for perceiving people from a number
+    of sensors.'
+  'name': 'people'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'crustcrawler_smartarm'
+  'description': 'crustcrawler_smartarm'
+  'name': 'crustcrawler_smart_arm'
+  'repo': 'ua-ros-pkg'
+- 'brief': 'overhead_grasping'
+  'description': 'overhead_grasping'
+  'name': 'overhead_grasping'
+  'repo': 'vanadium-ros-pkg'
+- 'brief': 'shared_autonomy'
+  'description': 'A stack for packages related to shared autonomy'
+  'name': 'shared_autonomy'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'OCR4ROS'
+  'description': ' This stack contains packages to read doorplate information in indoor
+    environments '
+  'name': 'OCR4ROS'
+  'repo': 'roblab-whge-ros-pkg'
+- 'brief': 'experimental geometry and math libraries'
+  'description': "\n    The experimental geometric and math libraries used in ros.\n\
+    \  "
+  'name': 'geometry_experimental'
+  'repo': 'geometry_experimental'
+- 'brief': 'motion_planners'
+  'description': 'motion_planners'
+  'name': 'motion_planners'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'OIT_experimental'
+  'description': "\n\t\tOIT_experimental: experimental packages to accompany the Overhead\
+    \ Interaction Toolkit\n\t"
+  'name': 'OIT_experimental'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'Entry to AAAI 2011 Small Scale Manipulation Challenge'
+  'description': 'This package plays chess with a Kinect-enable robot.'
+  'name': 'maxwell_apps'
+  'repo': 'vanadium-ros-pkg'
+- 'brief': 'The ROS Kinect project'
+  'description': "\n  \n    ROS Kinect is an open source project focused on the integration\
+    \ of the\n    Microsoft Kinect sensor with ROS. The kinect ROS stack contains\
+    \ low-level\n    drivers, visualization launch files, and PCL/OpenCV tutorials/demos.\n\
+    \  \n  "
+  'name': 'cyphy_kinect'
+  'repo': 'cyphy'
+- 'brief': 'Tools to work with linux networking'
+  'description': "\n    <p>\n      Tools to work with linux networking. \n    </p>\n\
+    \  "
+  'name': 'linux_networking'
+  'repo': 'ros-pkg'
+- 'brief': 'Software for USB cameras, stereo, streaming'
+  'description': "\n    Software for USB cameras, stereo, streaming\n  "
+  'name': 'camera_umd'
+  'repo': 'umd-ros-pkg'
+- 'brief': 'Servo, Phidget and STOC camera drivers.'
+  'description': "\n        This stack contains ROS drivers for Phidgets pressure,\
+    \ RFID and \n        accelerometer sensors, Phidgets InterfaceKit, Dynamixel servos,\n\
+    \        Videre Stereo cameras. Also includes low level C++ serial port\n    \
+    \    interface via Gearbox project.\n    "
+  'name': 'ua_drivers'
+  'repo': 'ua-ros-pkg'
+- 'brief': 'Tools for calibrating the PR2''s kinematics'
+  'description': "\n     Provides a toolchain running through the robot calibration\
+    \ process. This\n     involves capturing pr2 calibration data, estimating pr2\
+    \ parameters, and\n     then updating the PR2 URDF.  Note that the only support\
+    \ API for the stack\n     is the tutorial for calibrating the PR2. All of the\
+    \ internal APIs are not\n     considered to be stable.\n  "
+  'name': 'pr2_calibration'
+  'repo': 'pr2_calibration'
+- 'brief': 'turtlebot_apps'
+  'description': 'turtlebot_apps is a group of simple demos and exmaples to run on
+    your TurtleBot to help you get started with ROS and TurtleBot.'
+  'name': 'turtlebot_apps'
+  'repo': 'turtlebot_apps'
+- 'brief': 'uos_tools'
+  'description': 'Various helper utilities not associated with a particular stack'
+  'name': 'uos_tools'
+  'repo': 'uos-ros-pkg'
+- 'brief': 'cmuipc'
+  'description': "\n     Packages for communicating with legacy CMU IPC systems\n\
+    \  "
+  'name': 'cmuipc'
+  'repo': 'wu-ros-pkg'
+- 'brief': 'reinforcement_learning'
+  'description': "\n    Reinforcement Learning framework. Repositories of agents and\
+    \ environments. ROS interface for reinforcement learning algorithms. Includes\
+    \ the TEXPLORE algorithm and real-time architecture for model-based RL. Developed\
+    \ by <a href=\"http://www.cs.utexas.edu/~todd/\">Todd Hester</a> and <a href=\"\
+    http://www.cs.utexas.edu/~pstone/\">Peter Stone</a> at the University of Texas\
+    \ at Austin."
+  'name': 'reinforcement_learning'
+  'repo': 'rl-texplore-ros-pkg'
+- 'brief': 'darpa_arm_msgs'
+  'description': 'darpa_arm_msgs'
+  'name': 'darpa_arm_msgs'
+  'repo': 'darpa_arm_msgs'
+- 'brief': 'drivers for supported cameras'
+  'description': "\n    This stack contains drivers for a variety of cameras, and\
+    \ some\n    associated tools.\n  "
+  'name': 'camera_drivers'
+  'repo': 'ros-pkg'
+- 'brief': 'Resources for qt usage with ros'
+  'description': "\n    This stack provides templates, tutorials and other resources\
+    \ that assist\n    qt on ros development.\n  "
+  'name': 'qt_ros'
+  'repo': 'qt_ros'
+- 'brief': 'ihr_tools'
+  'description': 'I Heart Robotics Tools'
+  'name': 'ihr_tools'
+  'repo': 'iheart-ros-pkg'
+- 'brief': 'stage'
+  'description': "\n     2D simulation using the Stage multi-robot simulator.\n  "
+  'name': 'stage'
+  'repo': 'ros-pkg'
+- 'brief': 'OTL Navigation Test Stack'
+  'description': "\n\n     otl_nav incluses\n     otl_roomba: roomba interface by\
+    \ python.\n     2dnav_otl_roomba: roomba navigation using ROS navigation stack\n\
+    \     otl_map: map data of OTL Lab.\n\n  "
+  'name': 'otl_nav'
+  'repo': 'otl-ros-pkg'
+- 'brief': 'tuc_pelican'
+  'description': 'The tuc_pelican stack contains packages for the AscTec Pelican quadrotor.'
+  'name': 'tuc_pelican'
+  'repo': 'tuc-ros-pkg'
+- 'brief': 'Packages for learning verbs from human heachers.'
+  'description': 'Packages for learning verbs from human heachers.'
+  'name': 'ua_verbs'
+  'repo': 'ua-ros-pkg'
+- 'brief': 'bag_experimental'
+  'description': "\n\n     Stack for developing and testing new ROS bag-related capabilities.\n\
+    \n  "
+  'name': 'bag_experimental'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'ros_pkg_tutorials'
+  'description': "\n\n     ros_pkg_tutorials is a stack for teaching different aspects\
+    \ of ros-pkg.\n\n  "
+  'name': 'ros_pkg_tutorials'
+  'repo': 'ros-pkg'
+- 'brief': 'cram_physics'
+  'description': 'cram_physics'
+  'name': 'cram_physics'
+  'repo': 'cram_physics'
+- 'brief': 'vmi_whiteboard_robot'
+  'description': "\n  \n  "
+  'name': 'wbrobot'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'ros.org infrastructure'
+  'description': 'Packages to support the ROS.org infrastructure.'
+  'name': 'rosorg'
+  'repo': 'rosorg'
+- 'brief': 'euRobotics_orocos_ws'
+  'description': "\n\n    Stack containing all software for the orocos workshop at\
+    \ the euRobotics\n    Forum\n\n  "
+  'name': 'euRobotics_orocos_ws'
+  'repo': 'euRobotics_orocos_ws'
+- 'brief': 'motion_planning'
+  'description': "\n     Motion Planning Algorithms\n  "
+  'name': 'motion_planning_research'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'albany_vision'
+  'description': 'This stack contains a vision utilities developed in the ILS Social
+    Robotics Lab, at the University of Albany, State University of New York.'
+  'name': 'albany_vision'
+  'repo': 'albany-ros-pkg'
+- 'brief': 'communcation'
+  'description': 'Packages for communicating with the world outside ROS. Right now
+    just contains the skype_bridge package.'
+  'name': 'communication'
+  'repo': 'wu-ros-pkg'
+- 'brief': 'Common code for Willow Garage robots.'
+  'description': 'Stores pakages that are widely useful to robots operating at Willow
+    Garage.'
+  'name': 'wg_common'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'hwu_osl_common'
+  'description': 'hwu_osl_common'
+  'name': 'hwu_osl_common'
+  'repo': 'hwu-osl-ros-pkg'
+- 'brief': 'nxt_apps'
+  'description': "\n\n    nxt_apps stack provides a set of common applications that\
+    \ can be run with the robots provided in the nxt_robot stack or \n    other custom\
+    \ made robots. \n\n  "
+  'name': 'nxt_apps'
+  'repo': 'foote-nxt'
+- 'brief': 'jsk_coordination_system'
+  'description': 'jsk_coordination_system'
+  'name': 'jsk_coordination_system'
+  'repo': 'jsk-ros-pkg'
+- 'brief': 'ecl_tools'
+  'description': 'Tools and utilities for ecl development'
+  'name': 'ecl_tools'
+  'repo': 'ecl_tools'
+- 'brief': 'orocos_tools'
+  'description': 'orocos_tools'
+  'name': 'orocos_tools'
+  'repo': 'orocos_tools'
+- 'brief': 'lv1'
+  'description': 'lv1 is the stack for Robot Kitemas LV1'
+  'name': 'lv1'
+  'repo': 'otl-ros-pkg'
+- 'brief': 'cwru_experimental'
+  'description': 'cwru_experimental'
+  'name': 'cwru_experimental'
+  'repo': 'cwru-ros-pkg'
+- 'brief': 'apps'
+  'description': 'Applications developed by the RAIL team at WPI.'
+  'name': 'apps'
+  'repo': 'wpi-rail-ros-pkg'
+- 'brief': 'The simple probabilstic grasp planner'
+  'description': "\n    A libraries to select grasping positions.\n  "
+  'name': 'grasping'
+  'repo': 'tum-ros-pkg'
+- 'brief': 'kinematics'
+  'description': "\n    This stack contains a set of kinematics messages and services\
+    \ that can be used for kinematic computation.\n  "
+  'name': 'kinematics'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'lse_ressources'
+  'description': "\n  \n  \tThis stack holds handy ressources for other stacks to\
+    \ find. Currently only has maps of ISR.\n  \t\n  "
+  'name': 'lse_ressources'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'turtlebot_simulator'
+  'description': 'Turtlebot specific simulation components.'
+  'name': 'turtlebot_simulator'
+  'repo': 'turtlebot_simulator'
+- 'brief': 'flirtlib_features'
+  'description': 'place recognition using 2d features on laser scans'
+  'name': 'flirtlib_features'
+  'repo': 'flirtlib_features'
+- 'brief': 'object_manipulation'
+  'description': "\n    Functionality for performing object pickup and placing, while\n\
+    \    avoiding collisions with the environment. This stack is designed\n    to\
+    \ be robot independent. It contains a complete interface for\n    pickup and place\
+    \ tasks, as well as general implementation of most\n    of the needed functionality.\n\
+    \n\n  "
+  'name': 'object_manipulation'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'External Dependencies Python Various'
+  'description': "\n  This stack contains various external dependencies and patches\
+    \ which\n  cannot be installed directly by rosdep. Probably some of them will\n\
+    \  be moved to rosdep soon.\n  \n  "
+  'name': 'py_various'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'find_object'
+  'description': 'find_object'
+  'name': 'find_object'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'Plugins for specialized network image transport'
+  'description': "\n    A set of plugins for publishing and subscribing to sensor_msgs/Image\
+    \ topics in representations other than raw pixel data. For example, for viewing\
+    \ a stream of images off-robot, a video codec will give much lower bandwidth and\
+    \ latency. For low frame rate tranport of high-definition images, you might prefer\
+    \ sending them as JPEG or PNG-compressed form.\n  "
+  'name': 'image_transport_plugins'
+  'repo': 'ros-pkg'
+- 'brief': 'starmac_demos'
+  'description': "\n  \n  Various demonstrations/experimental setups\n  \n  "
+  'name': 'starmac_demos'
+  'repo': 'starmac-ros-pkg'
+- 'brief': 'xsens_hardware'
+  'description': "\n\n    Stack to interface Xsens MTI devices. The <a href=\"http://www.ros.org/wiki/xsens_mti\"\
+    >xsens_mti</a> package contains the low level library to access the IMU data.\
+    \ <a href=\"http://www.ros.org/wiki/xsens_component\">xsens_component</a> is an\
+    \ Orocos component, wrapped around <a href=\"http://www.ros.org/wiki/xsens_mti\"\
+    >xsens_mti</a>, streaming all data to ROS topics.\n\n  "
+  'name': 'xsens_hardware'
+  'repo': 'xsens_hardware'
+- 'brief': 'occupancy_grid_utils'
+  'description': 'Library for occupancy grids.'
+  'name': 'occupancy_grid_utils'
+  'repo': 'occupancy_grid_utils'
+- 'brief': 'Common configuration options for planar navigation applications on the
+    PR2 robot.'
+  'description': "\n  The pr2_navigation stack holds common configuration options\
+    \ for running the\n  <a href=\"http://www.ros.org/wiki/navigation\">navigation</a>\
+    \ stack on a PR2 robot. The packages in this stack are used by\n  many PR2-specific\
+    \ applications that use planar navigation.\n  "
+  'name': 'pr2_navigation'
+  'repo': 'pr2_navigation'
+- 'brief': 'exploration stack'
+  'description': "\n     A 2D exploration library that builds on top of the 2D navigation\
+    \ stack provided by Willow Garage.\n  "
+  'name': 'exploration'
+  'repo': 'bosch-ros-pkg'
+- 'brief': 'meka_robot'
+  'description': 'meka_robot'
+  'name': 'meka_robot'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'otl_geometry'
+  'description': 'otl_geometry is geometric libraries of OTL'
+  'name': 'otl_geometry'
+  'repo': 'otl-ros-pkg'
+- 'brief': 'multimaster_experimental'
+  'description': 'Experimental packages exploring different techniques for running
+    nodes in a multiple ROS master setup.'
+  'name': 'multimaster_experimental'
+  'repo': 'multimaster_experimental'
+- 'brief': 'Messages and services for humanoid robots'
+  'description': "\n    Messages and services for humanoid robots\n    "
+  'name': 'humanoid_msgs'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'ros_tutorials'
+  'description': "\n\n    ros_tutorials contains packages that demonstrate various\
+    \ features of ROS, as well as support packages which help demonstrate those features.\n\
+    \n  "
+  'name': 'ros_tutorials'
+  'repo': 'ros_tutorials'
+- 'brief': 'Drivers related to PR2 ethercat hardware'
+  'description': "\n    This stack contains drivers for the ethercat system and the\
+    \ peripherals\n    that connect to it: motor control boards, fingertip sensors,\
+    \ texture\n    projector, hand accelerometer.\n  "
+  'name': 'pr2_ethercat_drivers'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'ethzasl_message_transport'
+  'description': 'Generic message transport plugin architecture'
+  'name': 'ethzasl_message_transport'
+  'repo': 'ethzasl_message_transport'
+- 'brief': 'hrl_experiments'
+  'description': "\n  \n  Contains packages with code for running various experiments.\n\
+    \  \n  "
+  'name': 'hrl_experiments'
+  'repo': 'gt-ros-pkg'
+- 'brief': 'Corobot'
+  'description': 'Corobot'
+  'name': 'Corobot'
+  'repo': 'roscorobot'
+- 'brief': 'Camera Estimatino'
+  'description': "\n    This stack contains a set of tools to work with multiple rgb\n\
+    \    camera's simultaneoulsy.\n  "
+  'name': 'camera_pose'
+  'repo': 'camera_pose'
+- 'brief': 'sbl'
+  'description': 'sbl'
+  'name': 'sbl_experimental'
+  'repo': 'usc-ros-pkg'
+- 'brief': 'pr2_common_alpha'
+  'description': 'pr2_common_alpha'
+  'name': 'pr2_common_alpha'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'itasc'
+  'description': 'itasc'
+  'name': 'itasc'
+  'repo': 'itasc'
+- 'brief': 'brown_remotelab'
+  'description': 'Infrastructure for remote labs, remote teleoperation, and teleprescence
+    robotics'
+  'name': 'brown_remotelab'
+  'repo': 'brown-ros-pkg'
+- 'brief': 'mavlink-ros-pkg'
+  'description': ''
+  'name': 'mavlink-ros-pkg'
+  'repo': 'mavlink-ros-pkg'
+- 'brief': 'Export ROS images to a video device.'
+  'description': "\n    simvid contains an image sink that allows to export ROS images\
+    \ to v4l2 compatible video devices.<br/>\n    The image sink includes a modified\
+    \ version v4l2loopback. This virtual video loopback device can be used to export\
+    \ ROS image streams to the local pc.<br/>\n    <br/>\n    The stack further holds\
+    \ several tools for getting images out of a Gazebo simulations.\n  "
+  'name': 'simvid'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'rosh_core'
+  'description': "\n     Main ROSH scripting and interpreter environment.\n  "
+  'name': 'rosh_core'
+  'repo': 'rosh_core'
+- 'brief': 'roslisp_common_tutorials'
+  'description': 'roslisp_common_tutorials'
+  'name': 'roslisp_common_tutorials'
+  'repo': 'ros-pkg'
+- 'brief': 'Transitional stack, use nao_robot and nao_common   instead'
+  'description': "\n  <p>The nao stack for ROS integration of the Nao humanoid is\
+    \ now\n  split into two stacks, please use them directly: <a href=\"http://www.ros.org/wiki/nao_robot\"\
+    >nao_robot</a> and <a href=\"http://www.ros.org/wiki/nao_common\">nao_common</a>.\n\
+    \  </p>  \n  "
+  'name': 'nao'
+  'repo': 'alufr-ros-pkg'
+- 'brief': 'odor_tools'
+  'description': "\n  \n  \tThis stack holds tools for mobile robot odor experiments.\n\
+    \  \t\n  "
+  'name': 'odor_tools'
+  'repo': 'isr-uc-ros-pkg'
+- 'brief': 'Contains packages for controlling and simulating a Pioneer 5-DOF robotic
+    arm'
+  'description': "\n  \n  \tContains packages for controlling and simulating a Pioneer\
+    \ 5-DOF robotic arm\n  \t\n  "
+  'name': 'pioneer_arm'
+  'repo': 'gt-ros-pkg'
+- 'brief': 'Robot Learning Language'
+  'description': "\n    Extension of the CRAM Plan Language to include experience-based\
+    \ learning\n  "
+  'name': 'roll'
+  'repo': 'roll'
+- 'brief': 'rtcus_applications'
+  'description': 'rtcus_applications'
+  'name': 'rtcus_applications'
+  'repo': 'rtc-us-ros-pkg-trunk'
+- 'brief': 'ROS on Android'
+  'description': "\n   Dependencies and tools for creating and running ROS nodes on\
+    \ Android powered devices.\n  "
+  'name': 'vmi_android'
+  'repo': 'vmi-ros-pkg'
+- 'brief': 'jsk_android_apps'
+  'description': "\n    jsk_android_apps\n  "
+  'name': 'jsk_android_apps'
+  'repo': 'jsk-ros-pkg'
+- 'brief': 'polonius'
+  'description': 'polonius'
+  'name': 'polonius'
+  'repo': 'wu-ros-pkg'
+- 'brief': 'A stack for interacting with Lego NXT'
+  'description': "\n    This stack has basic interfaces for interacting with ROS and\
+    \ NXT. The software in this \n    stack is intended to run on top of the default\
+    \ NXT firmware provided by lego. \n  "
+  'name': 'nxt'
+  'repo': 'foote-nxt'
+- 'brief': 'geometry and math libraries'
+  'description': "\n    The basic geometric and math libraries used in ros.\n  "
+  'name': 'bullet'
+  'repo': 'bullet'
+- 'brief': 'dfki_sks_laser_drivers'
+  'description': "\n    The dfki_sks_laser_drivers stack contains ROS laser rangefinder\n\
+    \    driver nodes developed at\n    the <a href=\"http://www.dfki.de/\">DFKI</a>\
+    \ <a href=\"http://dfki.de/sks\">Safe\n    and Secure Cognitive Systems</a> research\
+    \ department in Bremen,\n    Germany.\n  "
+  'name': 'dfki_sks_laser_drivers'
+  'repo': 'dfki-sks-ros-pkg'
+- 'brief': 'Tools for use with URDF Models'
+  'description': 'This package contains a number of tools for making, viewing and
+    using URDF models.'
+  'name': 'urdf_tools'
+  'repo': 'wu-ros-pkg'
+- 'brief': 'Runs PR2 self-checks on robot.'
+  'description': "\nPackages for running PR2 self-tests and bringup checks onboard\
+    \ robot.\n  "
+  'name': 'pr2_self_test'
+  'repo': 'wg-ros-pkg'
+- 'brief': 'worldmodel'
+  'description': 'worldmodel'
+  'name': 'worldmodel'
+  'repo': 'worldmodel'
+- 'brief': 'power_supplies'
+  'description': 'power_supplies'
+  'name': 'power_supplies'
+  'repo': 'umd-ros-pkg'
+- 'brief': 'pr2_doors'
+  'description': 'The pr2_doors stack provides the building blocks and integration
+    to allow the PR2 to autonomously detect and open doors.'
+  'name': 'pr2_doors'
+  'repo': 'pr2_doors'
