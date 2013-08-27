@@ -1,1 +1,1 @@
-<?php header('Location: http://www.ros.org/browse/list.php'); ?>
+<?php header('Location: http://' . $_SERVER['HTTP_HOST'] . '/browse/list.php'); ?>
