@@ -50,10 +50,10 @@ function format_names($names)
 
     <link rel="stylesheet" href="rosbrowse.css" type="text/css" media="screen"/>
 
-<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/wiki/moin_static182/rostheme/css/common.css">
-<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/wiki/moin_static182/rostheme/css/screen.css">
-<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/wiki/moin_static182/rostheme/css/print.css">
-<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/wiki/moin_static182/rostheme/css/projection.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/wiki/moin_static197/rostheme/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/wiki/moin_static197/rostheme/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/wiki/moin_static197/rostheme/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/wiki/moin_static197/rostheme/css/projection.css">
 
 <script type="text/javascript">
 
