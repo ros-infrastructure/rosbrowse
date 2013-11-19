@@ -3,7 +3,7 @@
 function get_packages($distro, $package_type)
 {
   $pkgs = array();
-  $dir_path = "../doc/" . $distro . "/api";
+  $dir_path = "/home/rosbot/docs/" . $distro . "/api";
   if ($handle = opendir($dir_path))
   {
     while(false !== ($entry = readdir($handle)))

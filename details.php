@@ -12,7 +12,7 @@ if (isset($_GET['distro']) && !empty($_GET['distro']))
 <div id="dpage-inner">
 
 <?php
-$filename = '../doc/' . $distro . '/api/' . $_GET['name'] . '/manifest.yaml';
+$filename = '/home/rosbot/docs/' . $distro . '/api/' . $_GET['name'] . '/manifest.yaml';
 if(file_exists($filename))
 {
 
