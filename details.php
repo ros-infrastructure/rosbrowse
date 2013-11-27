@@ -69,7 +69,7 @@ if(!file_exists($filename))
 ?>
 
 <hr />
-<p><a href="list.php?package_type=<?php echo $pkg['package_type']; ?>&distro=<?php echo $distro; ?>" >Return to list of all <?php echo $pkg['package_type']; ?>s</a></p>
+<p><a href="list.php?<?php if (isset($pkg)) { echo 'package_type=' . $pkg['package_type'] . '&'; } ?>distro=<?php echo $distro; ?>" >Return to list <?php if (isset($pkg)) { echo 'of all ' . $pkg['package_type'] . 's'; } ?></a></p>
 </div>
 </div>
 </body>
