@@ -31,7 +31,7 @@ else
 <p><i><?php echo (string)$pkg['brief']; ?></i></p>
 <?php } ?>
 <p><b>Author(s):</b> <?php echo $pkg['authors']; ?></p>
-<p><b>Maintainer(s):</b> <?php echo $pkg['maintainers']; ?></p>
+<p><b>Maintainer(s):</b> <?php echo array_key_exists('maintainers', $pkg) ? $pkg['maintainers'] : ''; ?></p>
 <p><b>License:</b> <?php echo $pkg['license']; ?></p>
 <?php if (strlen($pkg['url']) > 0) { ?>
 <p><b>Website:</b> <a href="<?php echo $pkg['url'] ?>"><?php echo $pkg['url'] ?></a></p>
