@@ -19,7 +19,7 @@ function get_packages($distro, $package_type)
           $pkgs[$entry]['brief'] = $yaml['brief'];
           $pkgs[$entry]['description'] = $yaml['description'];
           $pkgs[$entry]['authors'] = $yaml['authors'];
-          $pkgs[$entry]['maintainers'] = $yaml['maintainers'];
+          $pkgs[$entry]['maintainers'] = array_key_exists('maintainers', $yaml) ? $yaml['maintainers'] : '';
         }
       }
     }
