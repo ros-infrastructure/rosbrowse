@@ -78,7 +78,7 @@ function format_names($names)
 <div id="header"><div id="topnav">
       <table id="topnav-table">
         <tr>
-          <td width="320" valign="top"><a href="/"><img border="0" src="/images/ros_org.png" alt="ros.org" width="238" height="51"/></a></td>
+          <td width="320" valign="top"><a href="/"><img border="0" src="http://wiki.ros.org/custom/images/ros_org.png" alt="ros.org" width="238" height="51"/></a></td>
 
           <td valign="middle">
             <a href="http://wiki.ros.org/About%20ros.org">About</a>
@@ -126,15 +126,15 @@ theForm.input.value=theForm.input.value
       </tr>
 
       <tr>
-        <td colspan="3" height="53" width="1024"><nobr><img src="/images/menu_left.png" width="17" height="53" alt=""/><a href="http://wiki.ros.org/"><img
-        border="0" src="/images/menu_documentation.png" width="237" height="53" alt="Documentation" /></a><img
-        src="/images/menu_spacer.png" width="69" height="53" /><a href="/browse/"><img border="0"
-        src="/images/menu_browse_software.png" width="268" height="53" alt="Browse Software" /></a><img
-        src="/images/menu_spacer.png" width="69" height="53" /><a href="/news/"><img border="0"
-        src="/images/menu_news.png" width="84" height="53" alt="News" /></a><img
-        src="/images/menu_spacer.png" width="69" height="53" /><a href="http://wiki.ros.org/ROS/Installation"><img border="0"
-        src="/images/menu_download.png" width="151" height="53" alt="Download" /></a><img
-        src="/images/menu_right.png" width="60" height="53" /></nobr></td>
+        <td colspan="3" height="53" width="1024"><nobr><img src="http://wiki.ros.org/custom/images/menu_left.png" width="17" height="53" alt=""/><a href="http://wiki.ros.org/"><img
+        border="0" src="http://wiki.ros.org/custom/images/menu_documentation.png" width="237" height="53" alt="Documentation" /></a><img
+        src="http://wiki.ros.org/custom/images/menu_spacer.png" width="69" height="53" /><a href="/browse/"><img border="0"
+        src="http://wiki.ros.org/custom/images/menu_browse_software.png" width="268" height="53" alt="Browse Software" /></a><img
+        src="http://wiki.ros.org/custom/images/menu_spacer.png" width="69" height="53" /><a href="/news/"><img border="0"
+        src="http://wiki.ros.org/custom/images/menu_news.png" width="84" height="53" alt="News" /></a><img
+        src="http://wiki.ros.org/custom/images/menu_spacer.png" width="69" height="53" /><a href="http://wiki.ros.org/ROS/Installation"><img border="0"
+        src="http://wiki.ros.org/custom/images/menu_download.png" width="151" height="53" alt="Download" /></a><img
+        src="http://wiki.ros.org/custom/images/menu_right.png" width="60" height="53" /></nobr></td>
       </tr>
     </table> <!-- topnav-table -->
     </div> <!-- /#topav -->
