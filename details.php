@@ -39,9 +39,12 @@ else
 <p><b>Source:</b> <a href="<?php echo $vcs_url ?>"><?php echo $vcs_url ?></a></p>
 <p><b>Dependencies:</b>
 <?php
+if ($dep)
+{
 foreach($pkg['depends'] as $dep)
 {
   echo "<a href=\"details.php?distro=" . $distro . "&name=" . $dep . "\">" . $dep . "</a>&nbsp;&nbsp;&nbsp; ";
+}
 }
 ?>
 </p>
