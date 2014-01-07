@@ -55,6 +55,8 @@ function format_names($names)
 <link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="http://wiki.ros.org/moin_static197/rostheme/css/print.css">
 <link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.ros.org/moin_static197/rostheme/css/projection.css">
 
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -81,9 +83,11 @@ function format_names($names)
           <td width="320" valign="top"><a href="/"><img border="0" src="http://wiki.ros.org/custom/images/ros_org.png" alt="ros.org" width="238" height="51"/></a></td>
 
           <td valign="middle">
-            <a href="http://wiki.ros.org/About%20ros.org">About</a>
+            <a href="http://www.ros.org/about-ros">About</a>
             |
-            <a href="http://wiki.ros.org/Support">Support</a>
+            <a href="/Support">Support</a>
+            |
+            <a href="http://status.ros.org/">Status</a>
             |
             <a href="http://answers.ros.org/">answers.ros.org</a>
           </td>
