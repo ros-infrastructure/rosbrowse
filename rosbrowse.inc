@@ -85,7 +85,7 @@ function format_names($names)
           <td valign="middle">
             <a href="http://www.ros.org/about-ros">About</a>
             |
-            <a href="/Support">Support</a>
+            <a href="http://wiki.ros.org/Support">Support</a>
             |
             <a href="http://status.ros.org/">Status</a>
             |
