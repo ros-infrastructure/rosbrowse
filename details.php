@@ -1,7 +1,7 @@
 <?php
 $title = $_GET['name'];
 include "rosbrowse.inc";
-$distro = 'hydro';
+$distro = 'indigo';
 if (isset($_GET['distro']) && !empty($_GET['distro']))
 {
   $distro = $_GET['distro'];
