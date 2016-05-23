@@ -9,8 +9,8 @@ if (isset($_GET['package_type']) && !empty($_GET['package_type']))
   $package_type = $_GET['package_type'];
 }
 
-$distro = 'jade';
-$distro_list = array('fuerte', 'groovy', 'hydro', 'indigo', 'jade', 'kinetic');
+$distro = 'kinetic';
+$distro_list = array('fuerte', 'groovy', 'hydro', 'indigo', 'jade', 'kinetic', 'lunar');
 if (isset($_GET['distro']) && !empty($_GET['distro']))
 {
   $distro = $_GET['distro'];
