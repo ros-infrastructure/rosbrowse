@@ -96,8 +96,8 @@ foreach($stack_results as $name => $stack)
     if (strlen($desc) == 100)
       $desc .= "...";
   }
-  $maintainers = format_names($pkg['maintainers']);
-  $authors = format_names($pkg['authors']);
+  $maintainers = format_names($stack['maintainers']);
+  $authors = format_names($stack['authors']);
   $maintainers_and_authors = $maintainers + $authors;
   echo '<tr><td class="pkgname"><a href="details.php?distro=' . urlencode($distro) . '&name=' . urlencode($name) . '">' . $name . '</a></td><td>' . implode(', ', $maintainers_and_authors) . '</td><td>' . htmlentities($desc) . '</td></tr>';
   echo "\n";
