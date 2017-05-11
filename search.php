@@ -2,8 +2,8 @@
 $title = "search results";
 include "rosbrowse.inc";
 
-$distro = 'kinetic';
-$distro_list = array("fuerte", "groovy", "hydro", "indigo", "jade", "kinetic", "lunar");
+$distro = 'lunar';
+$distro_list = array("fuerte", "groovy", "hydro", "indigo", "jade", "kinetic", "lunar", "M-Turtle");
 if (isset($_GET['distro']) && !empty($_GET['distro']))
 {
   $distro = $_GET['distro'];
